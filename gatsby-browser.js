@@ -1,8 +1,7 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+import CustomLayout from "./wrapPageElement"
 
-// You can delete this file if you're not using it
+import "react-slideshow-image/dist/styles.css"
 import "./src/index.css"
+
+
+export const wrapPageElement = CustomLayout
