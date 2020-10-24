@@ -1,28 +1,21 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
 import SEO from "./seo"
-import Header from "./header"
+import SocialHeader from "./socialHeader"
+import Navigation from "./navigation"
+import Main from "./main"
+import Footer from "./footer"
 
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <SEO lang="nl" />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-      </div>
+      <SEO lang="nl" />     
+      <SocialHeader />
+      <Navigation />
+      <Main>
+        {children}
+      </Main>
+      <Footer />
     </>
   )
 }

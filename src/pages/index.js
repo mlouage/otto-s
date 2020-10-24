@@ -4,4 +4,4 @@ const IndexPage = () => (
   <p>Hallo</p>
 )
 
-export default IndexPage
+export default IndexPage;
