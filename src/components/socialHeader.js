@@ -1,9 +1,9 @@
 import React from "react"
 
 const SocialHeader = () => (
-    <h1>
+    <div className="bg-gray-700 sticky">
         Social Header
-    </h1>
+    </div>
 )
 
 export default SocialHeader;

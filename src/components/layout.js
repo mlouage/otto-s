@@ -8,7 +8,7 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="box-border">
       <SEO lang="nl" />     
       <SocialHeader />
       <Navigation />
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         {children}
       </Main>
       <Footer />
-    </>
+    </div>
   )
 }
 
