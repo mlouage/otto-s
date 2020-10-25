@@ -3,11 +3,16 @@ import useAllCars from "../hooks/useAllCars"
 
 const Cars = () => {
     const cars = useAllCars();
-    
+    const carsToDisplay = [];
+
+    for (const car in cars) {
+        carsToDisplay.push({ name: cars[car][0].name, url: cars[car][0].publicURL})
+    }
+
     return (
         <div>
-            {cars.map((car) => (
-                <pre key={car}>{car}</pre>
+            {carsToDisplay.map(car => (
+                <pre key={car.name}>{car.name}, {car.url}</pre>
             ))}
         </div>
     )

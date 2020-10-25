@@ -1,26 +1,37 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
 
 const useAllCars = () => {
-    const data = useStaticQuery(graphql`
-        query AllCars {
-            allFile(filter: {publicURL: {regex: "/xxl_/"}}, sort: {fields: name, order: ASC}) {
-                nodes {
-                    name
-                    publicURL
-                }
-            }
+  const data = useStaticQuery(graphql`
+    query AllCars {
+      allFile(
+        filter: { publicURL: { regex: "/xxl_/" } }
+        sort: { fields: name, order: ASC }
+      ) {
+        nodes {
+          name
+          publicURL
         }
-    `);
+      }
+    }
+  `);
 
-    const images = new Set();
+  const imagesSet = new Set();
 
-    data.allFile.nodes.map(image => (        
-        images.add(image.name.split("_", 2)[1])
+  data.allFile.nodes.map((image) => imagesSet.add(image.name.split("_", 2)[1]));
+
+  const images = [...imagesSet];
+
+  const cars = [];
+
+  images.forEach((image) => {
+    const imagesForCar = data.allFile.nodes.filter((node) => (
+        node.name.includes(image)
     ));
 
-    // return array of arrays, key is image and array are all the image for that car
+    cars[image] = imagesForCar;
+  });
 
-    return [...images];
-}
+  return cars;
+};
 
 export default useAllCars;
