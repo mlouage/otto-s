@@ -1,18 +1,13 @@
 import React from "react"
-import { useAllCarImages } from "../hooks/useAllCars"
+import useAllCars from "../hooks/useAllCars"
 
 const Cars = () => {
-    const cars = useAllCarImages();
-
-    const images = [];
-
-    cars.map(car => images.push(car.name))
-
+    const cars = useAllCars();
+    
     return (
         <div>
-            <pre>Images</pre>
-            {images.map((image) => (
-                <pre key={image}>Image: {image}</pre>
+            {cars.map((car) => (
+                <pre key={car}>{car}</pre>
             ))}
         </div>
     )
