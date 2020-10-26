@@ -2,16 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.react-slideshow-container {
-  width: 725px;
-  height: 425px;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-icon {
+  filter: none;
 }
 
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  width: 725px;
-  height: 425px;
+.image-gallery-left-nav, .image-gallery-right-nav {
+  height: 100%;
+}
+
+.image-gallery-left-nav:hover {
+  height: 100%;
+  color: #22543D;
+  background-image:
+    linear-gradient(
+      to right, 
+      #C6F6D5,
+      transparent
+    );
+}
+
+.image-gallery-right-nav:hover {
+  height: 100%;
+  color: #22543D;
+  background-image:
+    linear-gradient(
+      to right, 
+      transparent,
+      #C6F6D5
+    );
 }
