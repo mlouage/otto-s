@@ -27,6 +27,59 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`
       },
     },
-    `gatsby-plugin-postcss`
-  ],
+    `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-source-custom-api",
+      options: {
+          url: {
+              development: "http://localhost:3000/vehicles",
+              production: "http://localhost:3000/vehicles"
+          },
+          imageKeys: ["images"],
+          rootKey: "Vehicles",
+          schemas: {
+            data: `[data]`,
+            data: `
+                id: String
+                brand_name: String
+                model_name: model_name
+                version: String
+                CO2_emissions: String
+            `,
+            model_name: `
+                nl: String
+            `,
+            model_slug: `
+                nl: String
+            `,
+            description: `
+                nl: String
+            `,
+            pollution_class_name: `
+                nl: String
+            `
+        }
+      }
+    },
+    // {
+    //   resolve: "gatsby-source-custom-api",
+    //   options: {
+    //       url: {
+    //           development: "http://localhost:3000/attributes",
+    //           production: "http://localhost:3000/attributes"
+    //       },
+    //       rootKey: "Attributes"
+    //   }
+    // },
+    // {
+    //   resolve: "gatsby-source-custom-api",
+    //   options: {
+    //       url: {
+    //           development: "http://localhost:3000/options",
+    //           production: "http://localhost:3000/options"
+    //       },
+    //       rootKey: "Options"
+    //   }
+    // }
+  ]
 }

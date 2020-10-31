@@ -1,6 +1,7 @@
 import React from "react"
 import useAllCars from "../hooks/useAllCars"
 import ImageGallery from "react-image-gallery"
+import { Link } from "gatsby";
 
 const Cars = () => {
     const cars = useAllCars();
@@ -50,7 +51,12 @@ const Cars = () => {
                 }
                 ));
 
-                return <ImageGallery items={images} {...config} />
+                return (
+                    <div>
+                        <ImageGallery items={images} {...config} />
+                        <Link to="/details?car=1234">Detail</Link>
+                    </div>
+                )
             })}
         </div>
     )

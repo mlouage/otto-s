@@ -1,0 +1,3007 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "slug": {
+                "en": "abs",
+                "fr": "abs",
+                "nl": "abs"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "ABS",
+                "en": "ABS",
+                "nl": "ABS"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "abs",
+            "providers": {
+                "carflow": "25",
+                "modix": "10"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:25",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 2,
+            "slug": {
+                "en": "centre-arm-rest",
+                "fr": "accoudoir",
+                "nl": "middenarmsteun"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Accoudoir",
+                "en": "Centre arm rest",
+                "nl": "Middenarmsteun"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "centre-arm-rest",
+            "providers": {
+                "carflow": "47",
+                "modix": "97"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:25",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 3,
+            "slug": {
+                "en": "head-up-display",
+                "fr": "affichage-tete-haute",
+                "nl": "voorruitpresentatie"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "en": "Head Up Display",
+                "fr": "Affichage t\u00eate haute",
+                "nl": "Voorruitpresentatie"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "head-up-display",
+            "providers": {
+                "carflow": "149",
+                "modix": "522"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:52:22",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 4,
+            "slug": {
+                "en": "rear-airbags",
+                "fr": "airbag-arriere",
+                "nl": "airbags-achteraan"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "en": "Rear airbags",
+                "fr": "Airbag arri\u00e8re",
+                "nl": "Airbags achteraan"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "rear-airbags",
+            "providers": {
+                "carflow": "36",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:47:10",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 5,
+            "slug": {
+                "en": "front-airbag",
+                "fr": "airbag-avant",
+                "nl": "airbag-vooraan"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Airbag avant",
+                "en": "Front airbag",
+                "nl": "Airbag vooraan"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "front-airbag",
+            "providers": {
+                "carflow": "74",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 6,
+            "slug": {
+                "en": "driver-side-airbag",
+                "fr": "airbag-conducteur",
+                "nl": "airbag-bestuurder"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Airbag conducteur",
+                "en": "Driver-side airbag",
+                "nl": "Airbag bestuurder"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "driver-side-airbag",
+            "providers": {
+                "carflow": "9",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 7,
+            "slug": {
+                "en": "passenger-side-airbag",
+                "fr": "airbag-passager",
+                "nl": "airbag-passagier"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Airbag passager",
+                "en": "Passenger-side airbag",
+                "nl": "Airbag passagier"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "passenger-side-airbag",
+            "providers": {
+                "carflow": "10",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 8,
+            "slug": {
+                "en": "lateral-airbags",
+                "fr": "airbags-lateraux",
+                "nl": "airbags-lateraal"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Airbags lat\u00e9raux",
+                "en": "Lateral airbags",
+                "nl": "Airbags lateraal"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "lateral-airbags",
+            "providers": {
+                "carflow": "11",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 9,
+            "slug": {
+                "en": "alarm",
+                "fr": "alarme",
+                "nl": "alarm"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Alarme",
+                "en": "Alarm",
+                "nl": "Alarm"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "alarm",
+            "providers": {
+                "carflow": "8",
+                "modix": "44"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 10,
+            "slug": {
+                "en": "immobiliser",
+                "fr": "anti-demarrage",
+                "nl": "startonderbreking"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Anti-d\u00e9marrage",
+                "en": "Immobiliser",
+                "nl": "Startonderbreking"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "immobiliser",
+            "providers": {
+                "carflow": "12",
+                "modix": "45"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:26",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 11,
+            "slug": {
+                "en": "antispin",
+                "fr": "anti-patinage",
+                "nl": "antispin"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Anti-patinage",
+                "en": "Antispin",
+                "nl": "Antispin"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "antispin",
+            "providers": {
+                "carflow": "46",
+                "modix": "93"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 12,
+            "slug": {
+                "en": "reversing-camera-system",
+                "fr": "camera-d-aide-au-stationnement",
+                "nl": "achteruitrijcamera"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Cam\u00e9ra d'aide au stationnement",
+                "en": "Reversing Camera System",
+                "nl": "Achteruitrijcamera"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "reversing-camera-system",
+            "providers": {
+                "carflow": "99",
+                "modix": "165"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 13,
+            "slug": {
+                "en": "reversing-warning",
+                "fr": "capteurs-d-aide-au-stationnement-arriere",
+                "nl": "achteruitrijwaarschuwing"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Capteurs d'aide au stationnement arri\u00e8re",
+                "en": "Reversing warning",
+                "nl": "Achteruitrijwaarschuwing"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "reversing-warning",
+            "providers": {
+                "carflow": null,
+                "modix": "166"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 14,
+            "slug": {
+                "en": "park-assistance-front",
+                "fr": "capteurs-d-aide-au-stationnement-avant",
+                "nl": "parkeerhulp-vooraan"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Capteurs d'aide au stationnement avant",
+                "en": "Park assistance front",
+                "nl": "Parkeerhulp vooraan"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "park-assistance-front",
+            "providers": {
+                "carflow": null,
+                "modix": "546"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 15,
+            "slug": {
+                "en": "parking-assist-system",
+                "fr": "systeme-d-aide-au-stationnement-automatique",
+                "nl": "automatische-parkeerhulp"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "en": "Parking assist system",
+                "fr": "Syst\u00e8me d'aide au stationnement automatique",
+                "nl": "Automatische parkeerhulp"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "parking-assist-system",
+            "providers": {
+                "carflow": "158",
+                "modix": "525"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-26 08:16:40",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 16,
+            "slug": {
+                "en": "tow-bar",
+                "fr": "attache-remorque",
+                "nl": "trekhaak"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Attache remorque",
+                "en": "Tow bar",
+                "nl": "Trekhaak"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "tow-bar",
+            "providers": {
+                "carflow": "15",
+                "modix": "73"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 17,
+            "slug": {
+                "en": "bluetooth",
+                "fr": "bluetooth",
+                "nl": "bluetooth"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Bluetooth",
+                "en": "Bluetooth",
+                "nl": "Bluetooth"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "bluetooth",
+            "providers": {
+                "carflow": "86",
+                "modix": "545"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 18,
+            "slug": {
+                "en": "cd",
+                "fr": "cd",
+                "nl": "cd"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "CD",
+                "en": "CD",
+                "nl": "CD"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "cd",
+            "providers": {
+                "carflow": "23",
+                "modix": "40"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:27",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 19,
+            "slug": {
+                "en": "auxiliary-heating",
+                "fr": "chauffage-auxiliaire",
+                "nl": "standverwarming"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Chauffage auxiliaire",
+                "en": "Auxiliary heating",
+                "nl": "Standverwarming"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "auxiliary-heating",
+            "providers": {
+                "carflow": "138",
+                "modix": "60"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 20,
+            "slug": {
+                "en": "air-conditioning",
+                "fr": "climatisation",
+                "nl": "airconditioning"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Climatisation",
+                "en": "Air conditioning",
+                "nl": "Airconditioning"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "air-conditioning",
+            "providers": {
+                "carflow": "4",
+                "modix": "8"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 21,
+            "slug": {
+                "en": "automatic-air-conditioning",
+                "fr": "climatisation-automatique",
+                "nl": "automatic-airconditioning"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Climatisation automatique",
+                "en": "Automatic air conditioning",
+                "nl": "Automatic airconditioning"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "automatic-air-conditioning",
+            "providers": {
+                "carflow": "5",
+                "modix": "8"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 22,
+            "slug": {
+                "en": "voice-control",
+                "fr": "commande-vocale",
+                "nl": "spraakbesturing"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Commande vocale",
+                "en": "Voice control",
+                "nl": "Spraakbesturing"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "voice-control",
+            "providers": {
+                "carflow": "169",
+                "modix": "431"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 23,
+            "slug": {
+                "en": "windbreaker-for-cabriolet",
+                "fr": "coupe-vent-pour-cabriolet",
+                "nl": "windbreker-cabriolet"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "en": "Windbreaker (for cabriolet)",
+                "fr": "Coupe vent (pour cabriolet)",
+                "nl": "Windbreker (cabriolet)"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "windbreaker",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:49:46",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 24,
+            "slug": {
+                "en": "servo-steering",
+                "fr": "direction-assistee",
+                "nl": "servostuur"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Direction assist\u00e9e",
+                "en": "Servo steering",
+                "nl": "Servostuur"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "servo-steering",
+            "providers": {
+                "carflow": null,
+                "modix": "53"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 25,
+            "slug": {
+                "en": "hands-free-equipment",
+                "fr": "dispositif-mains-libres",
+                "nl": "hands-free-voorziening"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Dispositif mains libres",
+                "en": "Hands-free equipment",
+                "nl": "Hands-free voorziening"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "hands-free-equipment",
+            "providers": {
+                "carflow": "148",
+                "modix": "432"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 26,
+            "slug": {
+                "en": "rain-sensor",
+                "fr": "detecteur-de-pluie",
+                "nl": "regensensor"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "D\u00e9tecteur de pluie",
+                "en": "Rain sensor",
+                "nl": "Regensensor"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "rain-sensor",
+            "providers": {
+                "carflow": "55",
+                "modix": "424"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:28",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 27,
+            "slug": {
+                "en": "traffic-sign-detection",
+                "fr": "detection-des-panneaux-routiers",
+                "nl": "traffic-sign-detection"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "D\u00e9tection des panneaux routiers",
+                "en": "Traffic sign detection",
+                "nl": "Traffic sign detection"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "traffic-sign-detection",
+            "providers": {
+                "carflow": "168",
+                "modix": "911"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 28,
+            "slug": {
+                "en": "esp",
+                "fr": "esp",
+                "nl": "esp"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "ESP",
+                "en": "ESP",
+                "nl": "ESP"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "esp",
+            "providers": {
+                "carflow": "27",
+                "modix": "74"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 29,
+            "slug": {
+                "en": "touchscreen",
+                "fr": "ecran-tactile",
+                "nl": "touch-screen"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Ecran tactile",
+                "en": "Touchscreen",
+                "nl": "Touch screen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "touchscreen",
+            "providers": {
+                "carflow": "167",
+                "modix": "910"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 30,
+            "slug": {
+                "en": "handicapped-accessible",
+                "fr": "equipement-handicape",
+                "nl": "mindervalidenvoertuig"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Equipement handicap\u00e9",
+                "en": "Handicapped accessible",
+                "nl": "Mindervalidenvoertuig"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "handicapped-accessible",
+            "providers": {
+                "carflow": "30",
+                "modix": "25"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 31,
+            "slug": {
+                "en": "tv",
+                "fr": "fonction-tv",
+                "nl": "tv"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Fonction TV",
+                "en": "TV",
+                "nl": "TV"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "tv",
+            "providers": {
+                "carflow": "164",
+                "modix": "188"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 32,
+            "slug": {
+                "en": "electronic-tailgate",
+                "fr": "hayon-arriere-electrique",
+                "nl": "elektrische-achterklep"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Hayon arri\u00e8re \u00e9lectrique",
+                "en": "Electronic tailgate",
+                "nl": "Elektrische achterklep"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "electronic-tailgate",
+            "providers": {
+                "carflow": "146",
+                "modix": "427"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 33,
+            "slug": {
+                "en": "isofix",
+                "fr": "isofix",
+                "nl": "isofix"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Isofix",
+                "en": "Isofix",
+                "nl": "Isofix"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "isofix",
+            "providers": {
+                "carflow": "67",
+                "modix": "418"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 34,
+            "slug": {
+                "en": "wheels",
+                "fr": "jantes",
+                "nl": "velgen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Jantes",
+                "en": "Wheels",
+                "nl": "Velgen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "wheels",
+            "providers": {
+                "carflow": null,
+                "modix": "59"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:29",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 35,
+            "slug": {
+                "en": "aluminium-wheels",
+                "fr": "jantes-aluminium",
+                "nl": "aluminium-velgen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Jantes aluminium",
+                "en": "Aluminium wheels",
+                "nl": "Aluminium velgen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "aluminium-wheels",
+            "providers": {
+                "carflow": null,
+                "modix": "59"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 36,
+            "slug": {
+                "en": "chrome-wheels",
+                "fr": "jantes-chrome",
+                "nl": "chrome-velgen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Jantes chrome",
+                "en": "Chrome wheels",
+                "nl": "Chrome velgen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "chrome-wheels",
+            "providers": {
+                "carflow": null,
+                "modix": "59"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 37,
+            "slug": {
+                "en": "steel-wheels",
+                "fr": "jantes-acier",
+                "nl": "stalen-velgen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Jantes acier",
+                "en": "Steel wheels",
+                "nl": "Stalen velgen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "steel-wheels",
+            "providers": {
+                "carflow": null,
+                "modix": "59"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 38,
+            "slug": {
+                "en": "light-alloy-wheels",
+                "fr": "jantes-alliage",
+                "nl": "lichtmetalen-velgen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Jantes alliage",
+                "en": "Light alloy wheels",
+                "nl": "Lichtmetalen velgen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "light-alloy-wheels",
+            "providers": {
+                "carflow": "14",
+                "modix": "59"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 39,
+            "slug": {
+                "en": "light-sensor",
+                "fr": "detecteur-de-lumiere",
+                "nl": "lichtsensor"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "en": "light sensor",
+                "fr": "D\u00e9tecteur de lumi\u00e8re",
+                "nl": "Lichtsensor"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "light-detector",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-04 14:31:11",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 40,
+            "slug": {
+                "en": "fog-lamp",
+                "fr": "feux-anti-brouillard",
+                "nl": "mistlampen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Feux anti-brouillard",
+                "en": "Fog lamp",
+                "nl": "Mistlampen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "fog-lamp",
+            "providers": {
+                "carflow": "17",
+                "modix": "52"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 41,
+            "slug": {
+                "en": "led-daytime-running-lights",
+                "fr": "led-phare-de-jour",
+                "nl": "led-dagrijlichten"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "LED Daytime running lights",
+                "fr": "LED Phare de jour",
+                "nl": "LED Dagrijlichten"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "daytime-running-lights",
+            "providers": {
+                "carflow": "154",
+                "modix": "521"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-25 16:43:53",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 42,
+            "slug": {
+                "en": "full-led-headlights",
+                "fr": "phares-au-led",
+                "nl": "volledige-led-koplampen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Phares au LED",
+                "en": "Full LED headlights",
+                "nl": "Volledige LED koplampen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "full-led-headlights",
+            "providers": {
+                "carflow": "2119",
+                "modix": "613"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:30",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 43,
+            "slug": {
+                "en": "xenon-headlights",
+                "fr": "phares-au-xenon",
+                "nl": "xenonlichten"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "Xenon headlights",
+                "fr": "Phares au X\u00e9non",
+                "nl": "Xenonlichten"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "xenon-headlights",
+            "providers": {
+                "carflow": "19",
+                "modix": "42"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:48:49",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 44,
+            "slug": {
+                "en": "daytime-running-lights",
+                "fr": "phares-de-jour",
+                "nl": "dagrijlichten"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "Daytime running lights",
+                "fr": "Phares de jour",
+                "nl": "Dagrijlichten"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "daylights",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-25 16:26:57",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 45,
+            "slug": {
+                "en": "directional-headlights",
+                "fr": "phares-directionnels",
+                "nl": "directionele-koplampen"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Phares directionnels",
+                "en": "Directional headlights",
+                "nl": "Directionele koplampen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "directional-headlights",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 46,
+            "slug": {
+                "en": "mp3",
+                "fr": "mp3",
+                "nl": "mp3"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "MP3",
+                "en": "MP3",
+                "nl": "MP3"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "mp3",
+            "providers": {
+                "carflow": "57",
+                "modix": "40"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 47,
+            "slug": {
+                "en": "onboard-computer",
+                "fr": "ordinateur-de-bord",
+                "nl": "boordcomputer"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Ordinateur de bord",
+                "en": "Onboard computer",
+                "nl": "Boordcomputer"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "onboard-computer",
+            "providers": {
+                "carflow": "20",
+                "modix": "145"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 48,
+            "slug": {
+                "en": "sport-pack",
+                "fr": "pack-sport",
+                "nl": "sportpakket"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Pack Sport",
+                "en": "Sport Pack",
+                "nl": "Sportpakket"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "sport-pack",
+            "providers": {
+                "carflow": "32",
+                "modix": "425"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 49,
+            "slug": {
+                "en": "shift-paddles",
+                "fr": "palettes-de-changement-de-vitesses",
+                "nl": "schakel-paddles"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Palettes de changement de vitesses",
+                "en": "Shift paddles",
+                "nl": "Schakel paddles"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "shift-paddles",
+            "providers": {
+                "carflow": "160",
+                "modix": "907"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 50,
+            "slug": {
+                "en": "windshield-defrosting",
+                "fr": "pare-brise-chauffant",
+                "nl": "voorruitontdooiing"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Pare-brise chauffant",
+                "en": "Windshield defrosting",
+                "nl": "Voorruitontdooiing"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "windshield-defrosting",
+            "providers": {
+                "carflow": "53",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:31",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 51,
+            "slug": {
+                "en": "winter-tires",
+                "fr": "pneus-neige",
+                "nl": "winterbanden"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Pneus neige",
+                "en": "Winter tires",
+                "nl": "Winterbanden"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "winter-tires",
+            "providers": {
+                "carflow": "33",
+                "modix": "420"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:32",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 52,
+            "slug": {
+                "en": "sliding-door",
+                "fr": "porte-coulissante",
+                "nl": "schuifdeur"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Porte coulissante",
+                "en": "Sliding door",
+                "nl": "Schuifdeur"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "sliding-door",
+            "providers": {
+                "carflow": "163",
+                "modix": "204"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:32",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 53,
+            "slug": {
+                "en": "suitcase-retainer",
+                "fr": "porte-bagages",
+                "nl": "bagagedrager"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "Suitcase retainer",
+                "fr": "Porte-bagages",
+                "nl": "Bagagedrager"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "suitcase-retainer",
+            "providers": {
+                "carflow": "16",
+                "modix": "157"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:40:38",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 54,
+            "slug": {
+                "en": "pot-catalytique",
+                "fr": "pot-catalytique",
+                "nl": "katalysator"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "Pot catalytique",
+                "fr": "Pot catalytique",
+                "nl": "Katalysator"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "pot-catalytique",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:38:11",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 55,
+            "slug": {
+                "en": "radio",
+                "fr": "radio",
+                "nl": "radio"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Radio",
+                "en": "Radio",
+                "nl": "Radio"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "radio",
+            "providers": {
+                "carflow": null,
+                "modix": "40"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:32",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 56,
+            "slug": {
+                "en": "digital-radio",
+                "fr": "radio-numerique",
+                "nl": "digital-radio"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Radio num\u00e9rique",
+                "en": "Digital radio",
+                "nl": "Digital radio"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "digital-radio",
+            "providers": {
+                "carflow": "143",
+                "modix": "40"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:32",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 57,
+            "slug": {
+                "en": "park-distance-control",
+                "fr": "regulateur-de-distance",
+                "nl": "adaptive-cruise-control"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "en": "Park Distance Control",
+                "fr": "R\u00e9gulateur de distance",
+                "nl": "Adaptive cruise control"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "park-distance-control",
+            "providers": {
+                "carflow": "41",
+                "modix": "51"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-26 08:20:45",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 58,
+            "slug": {
+                "en": "cruise-control",
+                "fr": "regulateur-de-vitesse",
+                "nl": "cruise-control"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "R\u00e9gulateur de vitesse",
+                "en": "Cruise Control",
+                "nl": "Cruise Control"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "cruise-control",
+            "providers": {
+                "carflow": "24",
+                "modix": "62"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 59,
+            "slug": {
+                "en": "outside-mirror-electric",
+                "fr": "retroviseurs-lateraux-electriques",
+                "nl": "elektrische-buitenspiegels"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "R\u00e9troviseurs lat\u00e9raux \u00e9lectriques",
+                "en": "Outside mirror electric",
+                "nl": "Elektrische buitenspiegels"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "outside-mirror-electric",
+            "providers": {
+                "carflow": "2",
+                "modix": "130"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 60,
+            "slug": {
+                "en": "lumbar-support",
+                "fr": "siege-a-reglage-lombaire",
+                "nl": "lendensteun"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Si\u00e8ge \u00e0 r\u00e9glage lombaire",
+                "en": "Lumbar support",
+                "nl": "Lendensteun"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "lumbar-support",
+            "providers": {
+                "carflow": "155",
+                "modix": "813"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 61,
+            "slug": {
+                "en": "heated-seats",
+                "fr": "sieges-chauffants",
+                "nl": "zetelverwarming"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Si\u00e8ges chauffants",
+                "en": "Heated seats",
+                "nl": "Zetelverwarming"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "heated-seats",
+            "providers": {
+                "carflow": "7",
+                "modix": "39"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 62,
+            "slug": {
+                "en": "massage-seats",
+                "fr": "sieges-massants",
+                "nl": "massagestoelen"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "en": "Massage seats",
+                "fr": "Si\u00e8ges massants",
+                "nl": "Massagestoelen"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "massage-seats",
+            "providers": {
+                "carflow": "156",
+                "modix": "915"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:49:11",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 63,
+            "slug": {
+                "en": "sport-seat",
+                "fr": "sieges-sport",
+                "nl": "sportzetels"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Si\u00e8ges sport",
+                "en": "Sport seat",
+                "nl": "Sportzetels"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "sport-seat",
+            "providers": {
+                "carflow": "65",
+                "modix": "100"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 64,
+            "slug": {
+                "en": "seat-ventilation",
+                "fr": "sieges-ventiles",
+                "nl": "zetelventilatie"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Si\u00e8ges ventil\u00e9s",
+                "en": "Seat ventilation",
+                "nl": "Zetelventilatie"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "seat-ventilation",
+            "providers": {
+                "carflow": "40",
+                "modix": "908"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 65,
+            "slug": {
+                "en": "electric-seats",
+                "fr": "sieges-electriques",
+                "nl": "elektrische-zetelverstelling"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Si\u00e8ges \u00e9lectriques",
+                "en": "Electric seats",
+                "nl": "Elektrische zetelverstelling"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "electric-seat",
+            "providers": {
+                "carflow": "3",
+                "modix": "37"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:33",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 66,
+            "slug": {
+                "en": "soundsystem",
+                "fr": "soundsystem",
+                "nl": "soundsystem"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "Soundsystem",
+                "en": "Soundsystem",
+                "nl": "Soundsystem"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "soundsystem",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 67,
+            "slug": {
+                "en": "start-stop-automatic",
+                "fr": "start-stop-automatique",
+                "nl": "start-stop-automatisch"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Start\/Stop automatique",
+                "en": "Start-Stop-Automatic",
+                "nl": "Start\/stop-automatisch"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "start-stop-automatic",
+            "providers": {
+                "carflow": "103",
+                "modix": "520"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 68,
+            "slug": {
+                "en": "air-cushioning",
+                "fr": "suspension-pneumatique",
+                "nl": "luchtvering"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Suspension pneumatique",
+                "en": "Air cushioning",
+                "nl": "Luchtvering"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "air-cushioning",
+            "providers": {
+                "carflow": "137",
+                "modix": "210"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 69,
+            "slug": {
+                "en": "sport-suspension",
+                "fr": "suspension-sport",
+                "nl": "verlaagde-ophanging"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Suspension sport",
+                "en": "Sport suspension",
+                "nl": "Verlaagde ophanging"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "external_id": "sport-suspension",
+            "providers": {
+                "carflow": "66",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 70,
+            "slug": {
+                "en": "emergency-call-system",
+                "fr": "systeme-d-appel-d-urgence",
+                "nl": "noodoproepsysteem"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Syst\u00e8me d'appel d'urgence",
+                "en": "Emergency call system",
+                "nl": "Noodoproepsysteem"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "emergency-call-system",
+            "providers": {
+                "carflow": "75",
+                "modix": "905"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 71,
+            "slug": {
+                "en": "tire-pressure-monitoring-system",
+                "fr": "systeme-de-controle-de-la-pression-pneus",
+                "nl": "bandenspanningscontrolesysteem"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "fr": "Syst\u00e8me de contr\u00f4le de la pression pneus",
+                "en": "Tire pressure monitoring system",
+                "nl": "Bandenspanningscontrolesysteem"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "tire-pressure-monitoring-system",
+            "providers": {
+                "carflow": "165",
+                "modix": "906"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 72,
+            "slug": {
+                "en": "driver-drowsiness-detection",
+                "fr": "systeme-de-detection-de-la-somnolence",
+                "nl": "vermoeidheidsdetectie"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "en": "Driver drowsiness detection",
+                "fr": "Syst\u00e8me de d\u00e9tection de la somnolence",
+                "nl": "Vermoeidheidsdetectie"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "driver-drowsiness-detection",
+            "providers": {
+                "carflow": "144",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:48:15",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 73,
+            "slug": {
+                "en": "navigation-system",
+                "fr": "systeme-de-navigation",
+                "nl": "navigatiesysteem"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Syst\u00e8me de navigation",
+                "en": "Navigation system",
+                "nl": "Navigatiesysteem"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "navigation-system",
+            "providers": {
+                "carflow": "21",
+                "modix": "36"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 74,
+            "slug": {
+                "en": "lane-departure-warning-system",
+                "fr": "alerte-de-franchissement-involontaire-de-lignes",
+                "nl": "lane-departure-warning-system"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Alerte de franchissement involontaire de lignes",
+                "en": "Lane departure warning system",
+                "nl": "Lane Departure Warning System"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "lane-departure-warning-system",
+            "providers": {
+                "carflow": "153",
+                "modix": "524"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:35",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 75,
+            "slug": {
+                "en": "brake-assistant",
+                "fr": "assistant-au-freinage-d-urgence",
+                "nl": "remassistantie"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Assistant au freinage d'urgence",
+                "en": "Brake assistant",
+                "nl": "Remassistantie"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "brake-assistant",
+            "providers": {
+                "carflow": "147",
+                "modix": "566"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:35",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 76,
+            "slug": {
+                "en": "hill-holder",
+                "fr": "assistant-de-demarrage-en-cote",
+                "nl": "hellingproef"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "en": "Hill holder",
+                "fr": "Assistant de d\u00e9marrage en c\u00f4te",
+                "nl": "Hellingproef"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "hill-hold-control",
+            "providers": {
+                "carflow": "150",
+                "modix": "900"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:45:23",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 77,
+            "slug": {
+                "en": "night-view-assist",
+                "fr": "assistant-de-vision-nocturne",
+                "nl": "nachtzichtassistent"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "en": "Night view assist",
+                "fr": "Assistant de vision nocturne",
+                "nl": "Nachtzichtassistent"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "night-view-assist",
+            "providers": {
+                "carflow": "157",
+                "modix": "903"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:42:20",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 78,
+            "slug": {
+                "en": "blind-spot-monitor",
+                "fr": "avertisseur-d-angle-mort",
+                "nl": "dodehoekdetectie"
+            },
+            "type": "driving_assistance",
+            "parent_id": null,
+            "name": {
+                "fr": "Avertisseur d'angle mort",
+                "en": "Blind spot monitor",
+                "nl": "Dodehoekdetectie"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "blind-spot-monitor",
+            "providers": {
+                "carflow": "139",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:35",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 79,
+            "slug": {
+                "en": "convertible",
+                "fr": "toit-ouvrant",
+                "nl": "open-dak"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Toit ouvrant",
+                "en": "Convertible",
+                "nl": "Open Dak"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "convertible",
+            "providers": {
+                "carflow": "91",
+                "modix": "104"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:35",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 80,
+            "slug": {
+                "en": "panoramic-roof",
+                "fr": "toit-panoramique",
+                "nl": "panoramisch-dak"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Toit panoramique",
+                "en": "Panoramic roof",
+                "nl": "Panoramisch dak"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "panoramic-roof",
+            "providers": {
+                "carflow": "44",
+                "modix": "531"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:35",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 81,
+            "slug": {
+                "en": "ski-door",
+                "fr": "trappe-a-ski",
+                "nl": "skiluik"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "en": "Ski door",
+                "fr": "Trappe \u00e0 ski",
+                "nl": "Skiluik"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "ski-bag",
+            "providers": {
+                "carflow": "162",
+                "modix": "281"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:59:07",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 82,
+            "slug": {
+                "en": "tuning",
+                "fr": "tuning",
+                "nl": "tuning"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Tuning",
+                "en": "Tuning",
+                "nl": "Tuning"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "tuning",
+            "providers": {
+                "carflow": "34",
+                "modix": "331"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 83,
+            "slug": {
+                "en": "usb",
+                "fr": "usb",
+                "nl": "usb"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "fr": "USB",
+                "en": "USB",
+                "nl": "USB"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "usb",
+            "providers": {
+                "carflow": "94",
+                "modix": "946"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 84,
+            "slug": {
+                "en": "central-locking",
+                "fr": "verrouillage-centralise",
+                "nl": "centrale-vergrendeling"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Verrouillage centralis\u00e9",
+                "en": "Central locking",
+                "nl": "Centrale vergrendeling"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "central-locking",
+            "providers": {
+                "carflow": "88",
+                "modix": "43"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 85,
+            "slug": {
+                "en": "remote-central-locking",
+                "fr": "verrouillage-centralise-avec-telecommande",
+                "nl": "centrale-vergrendeling-afstand"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Verrouillage centralis\u00e9 avec t\u00e9l\u00e9commande",
+                "en": "Remote central locking",
+                "nl": "Centrale vergrendeling afstand"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "remote-central-locking",
+            "providers": {
+                "carflow": "13",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 86,
+            "slug": {
+                "en": "keyless-central-locking",
+                "fr": "verrouillage-centralise-sans-cle",
+                "nl": "sleutelloze-centrale-vergrendeling"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "Verrouillage centralis\u00e9 sans cl\u00e9",
+                "en": "Keyless central locking",
+                "nl": "Sleutelloze centrale vergrendeling"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "keyless-central-locking",
+            "providers": {
+                "carflow": "96",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 87,
+            "slug": {
+                "en": "tinted-rear-windows",
+                "fr": "vitres-teintees",
+                "nl": "verduisterde-achterruiten"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Vitres teint\u00e9es",
+                "en": "Tinted rear windows",
+                "nl": "Verduisterde achterruiten"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "tinted-rear-windows",
+            "providers": {
+                "carflow": "45",
+                "modix": "426"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 88,
+            "slug": {
+                "en": "electric-windows",
+                "fr": "vitres-electriques",
+                "nl": "elektrische-ruiten"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Vitres \u00e9lectriques",
+                "en": "Electric windows",
+                "nl": "Elektrische ruiten"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "electric-windows",
+            "providers": {
+                "carflow": "1",
+                "modix": "35"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 89,
+            "slug": {
+                "en": "heated-steering-wheel",
+                "fr": "volant-chauffant",
+                "nl": "verwarmdstuurwiel"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Volant chauffant",
+                "en": "Heated steering wheel",
+                "nl": "Verwarmdstuurwiel"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "heated-steering-wheel",
+            "providers": {
+                "carflow": "73",
+                "modix": "899"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 90,
+            "slug": {
+                "en": "leather-steering-wheel",
+                "fr": "volant-en-cuir",
+                "nl": "lederen-stuurwiel"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Volant en cuir",
+                "en": "leather-steering-wheel",
+                "nl": "Lederen stuurwiel"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "leather-steering-wheel",
+            "providers": {
+                "carflow": "49",
+                "modix": "901"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:37",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 91,
+            "slug": {
+                "en": "multifunctional-steering-wheel",
+                "fr": "volant-multifonctions",
+                "nl": "multifunctioneel-stuur"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "fr": "Volant multifonctions",
+                "en": "Multifunctional steering wheel",
+                "nl": "Multifunctioneel stuur"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": "multifunctional-steering-wheel",
+            "providers": {
+                "carflow": "56",
+                "modix": "141"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:37",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 92,
+            "slug": {
+                "en": "bars-of-protection",
+                "fr": "barres-de-protection",
+                "nl": "schokbreker"
+            },
+            "type": "security",
+            "parent_id": null,
+            "name": {
+                "en": "Bars of protection",
+                "fr": "Barres de protection",
+                "nl": "Schokbreker"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "bars-of-protection",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:47:55",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 93,
+            "slug": {
+                "en": "complete-fairing",
+                "fr": "carenage",
+                "nl": "volledige-spoiler"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "fr": "Car\u00e9nage",
+                "en": "Complete fairing",
+                "nl": "Volledige spoiler"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "complete-fairing",
+            "providers": {
+                "carflow": null,
+                "modix": "149"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:37",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 94,
+            "slug": {
+                "en": "electric-starter",
+                "fr": "demarreur-electrique",
+                "nl": "elektrische-starter"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "fr": "D\u00e9marreur \u00e9lectrique",
+                "en": "Electric starter",
+                "nl": "Elektrische starter"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "electric-starter",
+            "providers": {
+                "carflow": "145",
+                "modix": "184"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:37",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 95,
+            "slug": {
+                "en": "kickstarter",
+                "fr": "pedale-de-demarrage",
+                "nl": "startpedaal"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "en": "Kickstarter",
+                "fr": "P\u00e9dale de d\u00e9marrage",
+                "nl": "Startpedaal"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "kickstarter",
+            "providers": {
+                "carflow": "152",
+                "modix": "185"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:53:19",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 96,
+            "slug": {
+                "en": "windshield",
+                "fr": "pare-brise",
+                "nl": "voorruit"
+            },
+            "type": "exterior",
+            "parent_id": null,
+            "name": {
+                "en": "Windshield",
+                "fr": "Pare-brise",
+                "nl": "Voorruit"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "windshield",
+            "providers": {
+                "carflow": null,
+                "modix": "381"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:39:42",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 97,
+            "slug": {
+                "en": "heated-grips",
+                "fr": "poignees-chauffantes",
+                "nl": "verwarmde-handgreep"
+            },
+            "type": "comfort",
+            "parent_id": null,
+            "name": {
+                "en": "Heated Grips",
+                "fr": "Poign\u00e9es chauffantes",
+                "nl": "Verwarmde handgreep"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "heated-Grips",
+            "providers": {
+                "carflow": null,
+                "modix": "155"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 17:50:59",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 98,
+            "slug": {
+                "en": "topcase",
+                "fr": "topcase",
+                "nl": "topcase"
+            },
+            "type": "extra",
+            "parent_id": null,
+            "name": {
+                "en": "Topcase",
+                "fr": "Topcase",
+                "nl": "Topcase"
+            },
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "external_id": "topcase",
+            "providers": {
+                "carflow": "166",
+                "modix": "159"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-22 18:01:34",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 99,
+            "slug": {
+                "en": "apple-carplay",
+                "fr": "apple-carplay",
+                "nl": "apple-carplay"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "en": "Apple CarPlay",
+                "fr": "Apple CarPlay",
+                "nl": "Apple CarPlay"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": null,
+            "providers": null,
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2020-10-19 15:59:36",
+            "updated_at": "2020-10-19 15:59:36",
+            "eurotax_multiple_id": null
+        },
+        {
+            "id": 101,
+            "slug": {
+                "en": "android-auto",
+                "fr": "android-auto",
+                "nl": "android-auto"
+            },
+            "type": "multimedia",
+            "parent_id": null,
+            "name": {
+                "en": "Android Auto",
+                "fr": "Android Auto",
+                "nl": "Android Auto"
+            },
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "external_id": null,
+            "providers": null,
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2020-10-19 15:59:53",
+            "updated_at": "2020-10-19 15:59:53",
+            "eurotax_multiple_id": null
+        }
+    ],
+    "first_page_url": "http:\/\/api.gocar.be\/v1\/public\/options?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/api.gocar.be\/v1\/public\/options?page=1",
+    "next_page_url": null,
+    "path": "http:\/\/api.gocar.be\/v1\/public\/options",
+    "per_page": "100",
+    "prev_page_url": null,
+    "to": 100,
+    "total": 100
+}

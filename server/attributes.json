@@ -1,0 +1,2779 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "slug": {
+                "en": "beige",
+                "fr": "beige",
+                "nl": "beige"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Beige",
+                "en": "Beige",
+                "nl": "Beige",
+                "de": null
+            },
+            "external_id": "beige",
+            "providers": {
+                "carflow": "4",
+                "modix": "2"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 2,
+            "slug": {
+                "en": "blue",
+                "fr": "bleu",
+                "nl": "blauw"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Bleu",
+                "en": "Blue",
+                "nl": "Blauw",
+                "de": null
+            },
+            "external_id": "blue",
+            "providers": {
+                "carflow": "2",
+                "modix": "3"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 3,
+            "slug": {
+                "en": "brown",
+                "fr": "brun",
+                "nl": "bruin"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Brun",
+                "en": "Brown",
+                "nl": "Bruin",
+                "de": null
+            },
+            "external_id": "brown",
+            "providers": {
+                "carflow": "5",
+                "modix": "4"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 4,
+            "slug": {
+                "en": "yellow",
+                "fr": "jaune",
+                "nl": "geel"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Jaune",
+                "en": "Yellow",
+                "nl": "Geel",
+                "de": null
+            },
+            "external_id": "yellow",
+            "providers": {
+                "carflow": "12",
+                "modix": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 5,
+            "slug": {
+                "en": "gold",
+                "fr": "dore",
+                "nl": "goud"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Dor\u00e9",
+                "en": "Gold",
+                "nl": "Goud",
+                "de": null
+            },
+            "external_id": "gold",
+            "providers": {
+                "carflow": "6",
+                "modix": "6"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 6,
+            "slug": {
+                "en": "grey",
+                "fr": "gris",
+                "nl": "grijs"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Gris",
+                "en": "Grey",
+                "nl": "Grijs",
+                "de": null
+            },
+            "external_id": "grey",
+            "providers": {
+                "carflow": "7",
+                "modix": "7"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 7,
+            "slug": {
+                "en": "green",
+                "fr": "vert",
+                "nl": "groen"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Vert",
+                "en": "Green",
+                "nl": "Groen",
+                "de": null
+            },
+            "external_id": "green",
+            "providers": {
+                "carflow": "3",
+                "modix": "8"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:04",
+            "eurotax_id": null
+        },
+        {
+            "id": 8,
+            "slug": {
+                "en": "orange",
+                "fr": "orange",
+                "nl": "oranje"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Orange",
+                "en": "Orange",
+                "nl": "Oranje",
+                "de": null
+            },
+            "external_id": "orange",
+            "providers": {
+                "carflow": "8",
+                "modix": "9"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 9,
+            "slug": {
+                "en": "red",
+                "fr": "rouge",
+                "nl": "rood"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Rouge",
+                "en": "Red",
+                "nl": "Rood",
+                "de": null
+            },
+            "external_id": "red",
+            "providers": {
+                "carflow": "1",
+                "modix": "10"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 10,
+            "slug": {
+                "en": "black",
+                "fr": "noir",
+                "nl": "zwart"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Noir",
+                "en": "Black",
+                "nl": "Zwart",
+                "de": null
+            },
+            "external_id": "black",
+            "providers": {
+                "carflow": "13",
+                "modix": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 11,
+            "slug": {
+                "en": "silver",
+                "fr": "argent",
+                "nl": "zilver"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Argent",
+                "en": "Silver",
+                "nl": "Zilver",
+                "de": null
+            },
+            "external_id": "silver",
+            "providers": {
+                "carflow": "10",
+                "modix": "12"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 12,
+            "slug": {
+                "en": "purple",
+                "fr": "violet",
+                "nl": "purper"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Violet",
+                "en": "Purple",
+                "nl": "Purper",
+                "de": null
+            },
+            "external_id": "purple",
+            "providers": {
+                "carflow": "9",
+                "modix": "13"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 13,
+            "slug": {
+                "en": "white",
+                "fr": "blanc",
+                "nl": "wit"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Blanc",
+                "en": "White",
+                "nl": "Wit",
+                "de": null
+            },
+            "external_id": "white",
+            "providers": {
+                "carflow": "11",
+                "modix": "14"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 14,
+            "slug": {
+                "en": "pink",
+                "fr": "rose",
+                "nl": "rose"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Rose",
+                "en": "Pink",
+                "nl": "Rose",
+                "de": null
+            },
+            "external_id": "pink",
+            "providers": {
+                "carflow": "18",
+                "modix": "15"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:05",
+            "eurotax_id": null
+        },
+        {
+            "id": 15,
+            "slug": {
+                "en": "anthracite",
+                "fr": "anthracite",
+                "nl": "antraciet"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "en": "Anthracite",
+                "fr": "Anthracite",
+                "nl": "Antraciet"
+            },
+            "external_id": "anthracite",
+            "providers": {
+                "carflow": "14",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-01-06 16:11:43",
+            "eurotax_id": null
+        },
+        {
+            "id": 16,
+            "slug": {
+                "en": "aubergine",
+                "fr": "aubergine",
+                "nl": "aubergine"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Aubergine",
+                "en": "Aubergine",
+                "nl": "Aubergine",
+                "de": null
+            },
+            "external_id": "aubergine",
+            "providers": {
+                "carflow": "16",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 17,
+            "slug": {
+                "en": "bordeaux",
+                "fr": "bordeaux",
+                "nl": "bordeaux"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Bordeaux",
+                "en": "Bordeaux",
+                "nl": "Bordeaux",
+                "de": null
+            },
+            "external_id": "bordeaux",
+            "providers": {
+                "carflow": "15",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 18,
+            "slug": {
+                "en": "bronze",
+                "fr": "bronze",
+                "nl": "brons"
+            },
+            "category": "color",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Bronze",
+                "en": "Bronze",
+                "nl": "Brons",
+                "de": null
+            },
+            "external_id": "bronze",
+            "providers": {
+                "carflow": "17",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 19,
+            "slug": {
+                "en": "other",
+                "fr": "autre",
+                "nl": "andere"
+            },
+            "category": "interior_material",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van",
+                "motorbike"
+            ],
+            "name": {
+                "en": "Other",
+                "fr": "Autre",
+                "nl": "Andere"
+            },
+            "external_id": "other",
+            "providers": {
+                "carflow": "6",
+                "modix": "1"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-01-07 07:51:28",
+            "eurotax_id": null
+        },
+        {
+            "id": 20,
+            "slug": {
+                "en": "petrol",
+                "fr": "essence",
+                "nl": "benzine"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Essence",
+                "en": "Petrol",
+                "nl": "Benzine",
+                "de": null
+            },
+            "external_id": "petrol",
+            "providers": {
+                "carflow": "1",
+                "modix": "1"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 21,
+            "slug": {
+                "en": "petrol-super",
+                "fr": "essence-super",
+                "nl": "benzine-super"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Essence (super)",
+                "en": "Petrol (super)",
+                "nl": "Benzine (super)",
+                "de": null
+            },
+            "external_id": "petrol-super",
+            "providers": {
+                "carflow": null,
+                "modix": "7"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 22,
+            "slug": {
+                "en": "diesel",
+                "fr": "diesel",
+                "nl": "diesel"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Diesel",
+                "en": "Diesel",
+                "nl": "Diesel",
+                "de": null
+            },
+            "external_id": "diesel",
+            "providers": {
+                "carflow": "2",
+                "modix": "2"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:06",
+            "eurotax_id": null
+        },
+        {
+            "id": 23,
+            "slug": {
+                "en": "electric",
+                "fr": "electrique",
+                "nl": "elektrisch"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Electrique",
+                "en": "Electric",
+                "nl": "Elektrisch",
+                "de": null
+            },
+            "external_id": "electric",
+            "providers": {
+                "carflow": "3",
+                "modix": "3"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 24,
+            "slug": {
+                "en": "gas",
+                "fr": "gaz",
+                "nl": "gas"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Gaz",
+                "en": "Gas",
+                "nl": "Gas",
+                "de": null
+            },
+            "external_id": "gas",
+            "providers": {
+                "carflow": "5",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 25,
+            "slug": {
+                "en": "cng",
+                "fr": "cng",
+                "nl": "cng"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "CNG",
+                "en": "CNG",
+                "nl": "CNG",
+                "de": null
+            },
+            "external_id": "cng",
+            "providers": {
+                "carflow": "11",
+                "modix": "10"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 26,
+            "slug": {
+                "en": "lpg",
+                "fr": "lpg",
+                "nl": "lpg"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "LPG",
+                "en": "LPG",
+                "nl": "LPG",
+                "de": null
+            },
+            "external_id": "lpg",
+            "providers": {
+                "carflow": "12",
+                "modix": "4"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 27,
+            "slug": {
+                "en": "methanol",
+                "fr": "methanol",
+                "nl": "methanol"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Methanol",
+                "en": "Methanol",
+                "nl": "Methanol",
+                "de": null
+            },
+            "external_id": "methanol",
+            "providers": {
+                "carflow": "8",
+                "modix": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 28,
+            "slug": {
+                "en": "hydrogen",
+                "fr": "hydrogen",
+                "nl": "hydrogen"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Hydrogen",
+                "en": "Hydrogen",
+                "nl": "Hydrogen",
+                "de": null
+            },
+            "external_id": "hydrogen",
+            "providers": {
+                "carflow": "7",
+                "modix": "6"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:07",
+            "eurotax_id": null
+        },
+        {
+            "id": 29,
+            "slug": {
+                "en": "hybrid",
+                "fr": "hybrid",
+                "nl": "hybride"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "en": "Hybrid",
+                "fr": "Hybrid",
+                "nl": "Hybride"
+            },
+            "external_id": "hybrid",
+            "providers": {
+                "carflow": "13",
+                "modix": "9"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-06-15 16:34:34",
+            "eurotax_id": null
+        },
+        {
+            "id": 30,
+            "slug": {
+                "en": "hybrid-diesel",
+                "fr": "hybride-diesel",
+                "nl": "hybride-diesel"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Hybride - Diesel",
+                "en": "Hybrid - Diesel",
+                "nl": "Hybride - Diesel",
+                "de": null
+            },
+            "external_id": "hybride-diesel",
+            "providers": {
+                "carflow": "10",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 31,
+            "slug": {
+                "en": "hybrid-petrol",
+                "fr": "hybride-essence",
+                "nl": "hybride-benzine"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Hybride - Essence",
+                "en": "Hybrid - Petrol",
+                "nl": "Hybride - Benzine",
+                "de": null
+            },
+            "external_id": "hybrid-petrol",
+            "providers": {
+                "carflow": "4",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 32,
+            "slug": {
+                "en": "ethanol",
+                "fr": "ethanol",
+                "nl": "ethanol"
+            },
+            "category": "fuel_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Ethanol",
+                "en": "Ethanol",
+                "nl": "Ethanol",
+                "de": null
+            },
+            "external_id": "ethanol",
+            "providers": {
+                "carflow": "6",
+                "modix": "12"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 34,
+            "slug": {
+                "en": "automatic",
+                "fr": "automatique",
+                "nl": "automaat"
+            },
+            "category": "gearbox",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Automatique",
+                "en": "Automatic",
+                "nl": "Automaat",
+                "de": null
+            },
+            "external_id": "automatic",
+            "providers": {
+                "carflow": "2",
+                "modix": "1"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 35,
+            "slug": {
+                "en": "manual",
+                "fr": "manuelle",
+                "nl": "manueel"
+            },
+            "category": "gearbox",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Manuelle",
+                "en": "Manual",
+                "nl": "Manueel",
+                "de": null
+            },
+            "external_id": "manual",
+            "providers": {
+                "carflow": "1",
+                "modix": "4"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 36,
+            "slug": {
+                "en": "semi-automatic",
+                "fr": "semi-automatique",
+                "nl": "halfautomaat"
+            },
+            "category": "gearbox",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Semi-automatique",
+                "en": "Semi-automatic",
+                "nl": "Halfautomaat",
+                "de": null
+            },
+            "external_id": "semi-automatic",
+            "providers": {
+                "carflow": "3",
+                "modix": "7"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:08",
+            "eurotax_id": null
+        },
+        {
+            "id": 37,
+            "slug": {
+                "en": "vario",
+                "fr": "vario",
+                "nl": "vario"
+            },
+            "category": "gearbox",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Vario",
+                "en": "Vario",
+                "nl": "Vario",
+                "de": null
+            },
+            "external_id": "vario",
+            "providers": {
+                "carflow": "4",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 38,
+            "slug": {
+                "en": "metallic-two-tone",
+                "fr": "metallic-two-tone",
+                "nl": "metallic-two-tone"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Metallic Two Tone",
+                "en": "Metallic Two Tone",
+                "nl": "Metallic Two Tone",
+                "de": null
+            },
+            "external_id": "8",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:11",
+            "eurotax_id": null
+        },
+        {
+            "id": 39,
+            "slug": {
+                "en": "other",
+                "fr": "autre",
+                "nl": "andere"
+            },
+            "category": "gearbox",
+            "vehicle_types": null,
+            "name": {
+                "de": "Other",
+                "en": "Other",
+                "fr": "Autre",
+                "nl": "Andere"
+            },
+            "external_id": "other",
+            "providers": {
+                "modix": null,
+                "carflow": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 40,
+            "slug": {
+                "en": "alcantara",
+                "fr": "alcantara",
+                "nl": "alcantara"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Alcantara",
+                "en": "Alcantara",
+                "nl": "Alcantara",
+                "de": null
+            },
+            "external_id": "alcantara",
+            "providers": {
+                "carflow": "7",
+                "modix": "13"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 41,
+            "slug": {
+                "en": "tissue",
+                "fr": "tissu",
+                "nl": "stof"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Tissu",
+                "en": "Tissue",
+                "nl": "Stof",
+                "de": null
+            },
+            "external_id": "tissue",
+            "providers": {
+                "carflow": "1",
+                "modix": "6"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 42,
+            "slug": {
+                "en": "leather",
+                "fr": "cuir",
+                "nl": "leder"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Cuir",
+                "en": "Leather",
+                "nl": "Leder",
+                "de": null
+            },
+            "external_id": "leather",
+            "providers": {
+                "carflow": "2",
+                "modix": "3"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 43,
+            "slug": {
+                "en": "synthetic-leather",
+                "fr": "cuir-synthetique",
+                "nl": "synthetisch-leder"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Cuir synth\u00e9tique",
+                "en": "Synthetic leather",
+                "nl": "Synthetisch leder",
+                "de": null
+            },
+            "external_id": "synthetic-leather",
+            "providers": {
+                "carflow": "3",
+                "modix": "2"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 44,
+            "slug": {
+                "en": "tissue-leather",
+                "fr": "tissu-cuir",
+                "nl": "stof-leder"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Tissu\/Cuir",
+                "en": "Tissue\/Leather",
+                "nl": "Stof\/Leder",
+                "de": null
+            },
+            "external_id": "tissu-Cuir",
+            "providers": {
+                "carflow": "8",
+                "modix": "10"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:09",
+            "eurotax_id": null
+        },
+        {
+            "id": 45,
+            "slug": {
+                "en": "alcantara-leather",
+                "fr": "alcantara-cuir",
+                "nl": "alcantara-leder"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Alcantara\/Cuir",
+                "en": "Alcantara\/Leather",
+                "nl": "Alcantara\/Leder",
+                "de": null
+            },
+            "external_id": "alcantara-cuir",
+            "providers": {
+                "carflow": "9",
+                "modix": "14"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:10",
+            "eurotax_id": null
+        },
+        {
+            "id": 46,
+            "slug": {
+                "en": "velvet",
+                "fr": "velours",
+                "nl": "fluweel"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Velours",
+                "en": "Velvet",
+                "nl": "Fluweel",
+                "de": null
+            },
+            "external_id": "velvet",
+            "providers": {
+                "carflow": "10",
+                "modix": "4"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:10",
+            "eurotax_id": null
+        },
+        {
+            "id": 47,
+            "slug": {
+                "en": "partially-leather",
+                "fr": "cuir-partiel",
+                "nl": "gedeeltelijk-leder"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Cuir partiel",
+                "en": "Partially leather",
+                "nl": "Gedeeltelijk leder",
+                "de": null
+            },
+            "external_id": "partially-leather",
+            "providers": {
+                "carflow": "4",
+                "modix": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:10",
+            "eurotax_id": null
+        },
+        {
+            "id": 48,
+            "slug": {
+                "en": "felt",
+                "fr": "feutre",
+                "nl": "vilt"
+            },
+            "category": "interior_material",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Feutre",
+                "en": "Felt",
+                "nl": "Vilt",
+                "de": null
+            },
+            "external_id": "felt",
+            "providers": {
+                "carflow": "5",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:10",
+            "eurotax_id": null
+        },
+        {
+            "id": 50,
+            "slug": {
+                "en": "euro-2",
+                "fr": "euro-2",
+                "nl": "euro-2"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 2",
+                "en": "Euro 2",
+                "nl": "Euro 2",
+                "de": "Euro 2"
+            },
+            "external_id": "2",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 51,
+            "slug": {
+                "en": "euro-3",
+                "fr": "euro-3",
+                "nl": "euro-3"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 3",
+                "en": "Euro 3",
+                "nl": "Euro 3",
+                "de": "Euro 3"
+            },
+            "external_id": "3",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 52,
+            "slug": {
+                "en": "euro-4",
+                "fr": "euro-4",
+                "nl": "euro-4"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 4",
+                "en": "Euro 4",
+                "nl": "Euro 4",
+                "de": "Euro 4"
+            },
+            "external_id": "4",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 53,
+            "slug": {
+                "en": "euro-5",
+                "fr": "euro-5",
+                "nl": "euro-5"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 5",
+                "en": "Euro 5",
+                "nl": "Euro 5",
+                "de": "Euro 5"
+            },
+            "external_id": "5",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:13",
+            "eurotax_id": null
+        },
+        {
+            "id": 54,
+            "slug": {
+                "en": "euro-6",
+                "fr": "euro-6",
+                "nl": "euro-6"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 6",
+                "en": "Euro 6",
+                "nl": "Euro 6",
+                "de": "Euro 6"
+            },
+            "external_id": "6",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:13",
+            "eurotax_id": null
+        },
+        {
+            "id": 55,
+            "slug": {
+                "en": "crystal-effect",
+                "fr": "crystal-effect",
+                "nl": "crystal-effect"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Crystal Effect",
+                "en": "Crystal Effect",
+                "nl": "Crystal Effect",
+                "de": null
+            },
+            "external_id": "7",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:11",
+            "eurotax_id": null
+        },
+        {
+            "id": 56,
+            "slug": {
+                "en": "metallic-two-tone",
+                "fr": "metallic-two-tone",
+                "nl": "metallic-two-tone"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "de": null,
+                "en": "Metallic Two Tone",
+                "fr": "Metallic Two Tone",
+                "nl": "Metallic Two Tone"
+            },
+            "external_id": "8",
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 57,
+            "slug": {
+                "en": "mica",
+                "fr": "mica",
+                "nl": "mica"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Mica",
+                "en": "Mica",
+                "nl": "Mica",
+                "de": null
+            },
+            "external_id": "9",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:11",
+            "eurotax_id": null
+        },
+        {
+            "id": 58,
+            "slug": {
+                "en": "mica-two-tone",
+                "fr": "mica-two-tone",
+                "nl": "mica-two-tone"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Mica Two Tone",
+                "en": "Mica Two Tone",
+                "nl": "Mica Two Tone",
+                "de": null
+            },
+            "external_id": "10",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:11",
+            "eurotax_id": null
+        },
+        {
+            "id": 59,
+            "slug": {
+                "en": "pearl-effect",
+                "fr": "pearl-effect",
+                "nl": "pearl-effect"
+            },
+            "category": "paint_type",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Pearl Effect",
+                "en": "Pearl Effect",
+                "nl": "Pearl Effect",
+                "de": null
+            },
+            "external_id": "11",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 60,
+            "slug": {
+                "en": "4x4",
+                "fr": "4x4",
+                "nl": "4x4"
+            },
+            "category": "transmission",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "4x4",
+                "en": "4x4",
+                "nl": "4x4",
+                "de": null
+            },
+            "external_id": "4x4",
+            "providers": {
+                "carflow": null,
+                "modix": "3"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 61,
+            "slug": {
+                "en": "front",
+                "fr": "avant",
+                "nl": "voor"
+            },
+            "category": "transmission",
+            "vehicle_types": null,
+            "name": {
+                "en": "Front",
+                "fr": "Avant",
+                "nl": "Voor"
+            },
+            "external_id": "Front",
+            "providers": {
+                "carflow": null,
+                "modix": "1"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-01-07 07:57:27",
+            "eurotax_id": null
+        },
+        {
+            "id": 62,
+            "slug": {
+                "en": "rear",
+                "fr": "arriere",
+                "nl": "achter"
+            },
+            "category": "transmission",
+            "vehicle_types": null,
+            "name": {
+                "en": "Rear",
+                "fr": "Arri\u00e8re",
+                "nl": "Achter"
+            },
+            "external_id": "Rear",
+            "providers": {
+                "carflow": null,
+                "modix": "2"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-01-07 07:58:17",
+            "eurotax_id": null
+        },
+        {
+            "id": 63,
+            "slug": {
+                "en": "euro-1",
+                "fr": "euro-1",
+                "nl": "euro-1"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 1",
+                "en": "Euro 1",
+                "nl": "Euro 1",
+                "de": "Euro 1"
+            },
+            "external_id": "1",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:12",
+            "eurotax_id": null
+        },
+        {
+            "id": 69,
+            "slug": {
+                "en": "euro-6c",
+                "fr": "euro-6c",
+                "nl": "euro-6c"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 6c",
+                "en": "Euro 6c",
+                "nl": "Euro 6c",
+                "de": "Euro 6c"
+            },
+            "external_id": "6c",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:13",
+            "eurotax_id": null
+        },
+        {
+            "id": 70,
+            "slug": {
+                "en": "euro-6d",
+                "fr": "euro-6d",
+                "nl": "euro-6d"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 6d",
+                "en": "Euro 6d",
+                "nl": "Euro 6d",
+                "de": "Euro 6d"
+            },
+            "external_id": "6d",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:13",
+            "eurotax_id": null
+        },
+        {
+            "id": 71,
+            "slug": {
+                "en": "euro-6d-temp",
+                "fr": "euro-6d-temp",
+                "nl": "euro-6d-temp"
+            },
+            "category": "pollution_class",
+            "vehicle_types": null,
+            "name": {
+                "fr": "Euro 6d-TEMP",
+                "en": "Euro 6d-TEMP",
+                "nl": "Euro 6d-TEMP",
+                "de": "Euro 6d-TEMP"
+            },
+            "external_id": "6dt",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:10:13",
+            "eurotax_id": null
+        },
+        {
+            "id": 74,
+            "slug": {
+                "en": "saloon",
+                "fr": "berline",
+                "nl": "berline"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "Berline",
+                "en": "Saloon",
+                "nl": "Berline"
+            },
+            "external_id": "saloon",
+            "providers": {
+                "carflow": "1",
+                "modix": "6"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:37",
+            "eurotax_id": null
+        },
+        {
+            "id": 75,
+            "slug": {
+                "en": "estate",
+                "fr": "break",
+                "nl": "break-stationwagon"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "name": {
+                "fr": "Break",
+                "en": "Estate",
+                "nl": "Break\/Stationwagon"
+            },
+            "external_id": "estate",
+            "providers": {
+                "carflow": "3",
+                "modix": "4"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 76,
+            "slug": {
+                "en": "convertible",
+                "fr": "cabriolet",
+                "nl": "cabrio"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "Cabriolet",
+                "en": "Convertible",
+                "nl": "Cabrio"
+            },
+            "external_id": "convertible",
+            "providers": {
+                "carflow": "6",
+                "modix": "31"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 77,
+            "slug": {
+                "en": "hatchback",
+                "fr": "citadine-hatchback",
+                "nl": "hatchback"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "en": "Hatchback",
+                "fr": "Citadine \/ Hatchback",
+                "nl": "Hatchback"
+            },
+            "external_id": "hatchback",
+            "providers": {
+                "carflow": "12",
+                "modix": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2020-05-25 10:48:10",
+            "eurotax_id": null
+        },
+        {
+            "id": 78,
+            "slug": {
+                "en": "coupe",
+                "fr": "coupe",
+                "nl": "coupe"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "name": {
+                "fr": "Coup\u00e9",
+                "en": "Coupe",
+                "nl": "Coupe"
+            },
+            "external_id": "coupe",
+            "providers": {
+                "carflow": "7",
+                "modix": "13"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 79,
+            "slug": {
+                "en": "mpv",
+                "fr": "monospace-camionnette",
+                "nl": "bestelwagen-monovolume"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "Monospace\/Camionnette",
+                "en": "MPV",
+                "nl": "Bestelwagen\/Monovolume"
+            },
+            "external_id": "mpv",
+            "providers": {
+                "carflow": "10",
+                "modix": "9"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 80,
+            "slug": {
+                "en": "van",
+                "fr": "minibus",
+                "nl": "van"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "name": {
+                "fr": "Minibus",
+                "en": "Van",
+                "nl": "Van"
+            },
+            "external_id": "van",
+            "providers": {
+                "carflow": "4",
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 81,
+            "slug": {
+                "en": "suv",
+                "fr": "suv",
+                "nl": "suv"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "SUV",
+                "en": "SUV",
+                "nl": "SUV"
+            },
+            "external_id": "suv",
+            "providers": {
+                "carflow": "5",
+                "modix": "8"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:38",
+            "eurotax_id": null
+        },
+        {
+            "id": 82,
+            "slug": {
+                "en": "4x4",
+                "fr": "4x4",
+                "nl": "terreinwagen"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "en": "4x4",
+                "fr": "4x4",
+                "nl": "Terreinwagen"
+            },
+            "external_id": "4x4",
+            "providers": {
+                "modix": "3",
+                "carflow": "5"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 83,
+            "slug": {
+                "en": "pick-up",
+                "fr": "pick-up",
+                "nl": "pick-up"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer"
+            ],
+            "name": {
+                "fr": "Pick-Up",
+                "en": "Pick-Up",
+                "nl": "Pick-Up"
+            },
+            "external_id": "pick-Up",
+            "providers": {
+                "carflow": "9",
+                "modix": "12"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 84,
+            "slug": {
+                "en": "utility",
+                "fr": "utilitaire",
+                "nl": "utility"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "van"
+            ],
+            "name": {
+                "fr": "Utilitaire",
+                "en": "Utility",
+                "nl": "Utility"
+            },
+            "external_id": "utility",
+            "providers": {
+                "carflow": "8",
+                "modix": "612"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 85,
+            "slug": {
+                "en": "other",
+                "fr": "autres",
+                "nl": "anders"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "car",
+                "oldtimer",
+                "motorbike",
+                "van"
+            ],
+            "name": {
+                "en": "Other",
+                "fr": "Autres",
+                "nl": "Anders"
+            },
+            "external_id": "other",
+            "providers": {
+                "modix": null,
+                "carflow": "11"
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 86,
+            "slug": {
+                "en": "chopper",
+                "fr": "chopper",
+                "nl": "chopper"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Chopper",
+                "en": "Chopper",
+                "nl": "Chopper"
+            },
+            "external_id": "94",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 87,
+            "slug": {
+                "en": "cruiser",
+                "fr": "cruiser",
+                "nl": "cruiser"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Cruiser",
+                "en": "Cruiser",
+                "nl": "Cruiser"
+            },
+            "external_id": "100",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 88,
+            "slug": {
+                "en": "enduro",
+                "fr": "enduro",
+                "nl": "enduro"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Enduro",
+                "en": "Enduro",
+                "nl": "Enduro"
+            },
+            "external_id": "112",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 89,
+            "slug": {
+                "en": "minibike",
+                "fr": "minibike",
+                "nl": "minibike"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "en": "Minibike",
+                "fr": "Minibike",
+                "nl": "Minibike"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 90,
+            "slug": {
+                "en": "moped",
+                "fr": "pocketbike",
+                "nl": "pocketbike"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Pocketbike",
+                "en": "Moped",
+                "nl": "Pocketbike"
+            },
+            "external_id": "553",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:39",
+            "eurotax_id": null
+        },
+        {
+            "id": 91,
+            "slug": {
+                "en": "motocross",
+                "fr": "motocross",
+                "nl": "motocross"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Motocross",
+                "en": "Motocross",
+                "nl": "Motocross"
+            },
+            "external_id": "554",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 92,
+            "slug": {
+                "en": "naked-bike",
+                "fr": "naked-bike",
+                "nl": "naked-bike"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Naked Bike",
+                "en": "Naked Bike",
+                "nl": "Naked Bike"
+            },
+            "external_id": "99",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 93,
+            "slug": {
+                "en": "quad",
+                "fr": "quad",
+                "nl": "quad"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Quad",
+                "en": "Quad",
+                "nl": "Quad"
+            },
+            "external_id": "101",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 94,
+            "slug": {
+                "en": "racing",
+                "fr": "moto-de-course",
+                "nl": "racemachine"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Moto de course",
+                "en": "Racing",
+                "nl": "Racemachine"
+            },
+            "external_id": "104",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 95,
+            "slug": {
+                "en": "rally",
+                "fr": "rally",
+                "nl": "rally"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Rally",
+                "en": "Rally",
+                "nl": "Rally"
+            },
+            "external_id": "102",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 96,
+            "slug": {
+                "en": "scooter",
+                "fr": "scooter",
+                "nl": "scooter"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Scooter",
+                "en": "Scooter",
+                "nl": "Scooter"
+            },
+            "external_id": "90",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 97,
+            "slug": {
+                "en": "sidecar",
+                "fr": "sidecar",
+                "nl": "sidecar"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Sidecar",
+                "en": "Sidecar",
+                "nl": "Sidecar"
+            },
+            "external_id": "91",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:40",
+            "eurotax_id": null
+        },
+        {
+            "id": 98,
+            "slug": {
+                "en": "super-moto",
+                "fr": "super-moto",
+                "nl": "super-moto"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Super Moto",
+                "en": "Super Moto",
+                "nl": "Super Moto"
+            },
+            "external_id": "107",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 99,
+            "slug": {
+                "en": "streetfighter",
+                "fr": "streetfighter",
+                "nl": "streetfighter"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Streetfighter",
+                "en": "Streetfighter",
+                "nl": "Streetfighter"
+            },
+            "external_id": "106",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 100,
+            "slug": {
+                "en": "super-moto",
+                "fr": "super-moto",
+                "nl": "super-moto"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "en": "Super Moto",
+                "fr": "Super Moto",
+                "nl": "Super Moto"
+            },
+            "external_id": "107",
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 101,
+            "slug": {
+                "en": "supersport",
+                "fr": "supersport",
+                "nl": "supersport"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Supersport",
+                "en": "Supersport",
+                "nl": "Supersport"
+            },
+            "external_id": "108",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 102,
+            "slug": {
+                "en": "tourer",
+                "fr": "tourer",
+                "nl": "tourer"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Tourer",
+                "en": "Tourer",
+                "nl": "Tourer"
+            },
+            "external_id": "458",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 103,
+            "slug": {
+                "en": "touring",
+                "fr": "touring",
+                "nl": "touring"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "en": "Touring",
+                "fr": "Touring",
+                "nl": "Touring"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 104,
+            "slug": {
+                "en": "trials-bike",
+                "fr": "trials-bike",
+                "nl": "trials-bike"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Trials Bike",
+                "en": "Trials Bike",
+                "nl": "Trials Bike"
+            },
+            "external_id": "110",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 105,
+            "slug": {
+                "en": "trike",
+                "fr": "trike",
+                "nl": "trike"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "motorbike"
+            ],
+            "name": {
+                "fr": "Trike",
+                "en": "Trike",
+                "nl": "Trike"
+            },
+            "external_id": "111",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-11-01 16:09:41",
+            "eurotax_id": null
+        },
+        {
+            "id": 106,
+            "slug": {
+                "en": "cabine",
+                "fr": "cabine",
+                "nl": "cabine"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Cabine",
+                "fr": "Cabine",
+                "nl": "Cabine"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 107,
+            "slug": {
+                "en": "capucines",
+                "fr": "capucines",
+                "nl": "capucines"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Capucines",
+                "fr": "Capucines",
+                "nl": "Capucines"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 108,
+            "slug": {
+                "en": "caravane",
+                "fr": "caravane",
+                "nl": "caravane"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Caravane",
+                "fr": "Caravane",
+                "nl": "Caravane"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 109,
+            "slug": {
+                "en": "fourgon",
+                "fr": "fourgon",
+                "nl": "fourgon"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Fourgon",
+                "fr": "Fourgon",
+                "nl": "Fourgon"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 110,
+            "slug": {
+                "en": "integrale",
+                "fr": "integrale",
+                "nl": "integrale"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Int\u00e9grale",
+                "fr": "Int\u00e9grale",
+                "nl": "Int\u00e9grale"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 111,
+            "slug": {
+                "en": "mobile-home",
+                "fr": "mobile-home",
+                "nl": "mobile-home"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Mobile home",
+                "fr": "Mobile home",
+                "nl": "Mobile home"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 112,
+            "slug": {
+                "en": "motorhome",
+                "fr": "motorhome",
+                "nl": "motorhome"
+            },
+            "category": "body_style",
+            "vehicle_types": [
+                "van"
+            ],
+            "name": {
+                "en": "Motorhome",
+                "fr": "Motorhome",
+                "nl": "Motorhome"
+            },
+            "external_id": null,
+            "providers": {
+                "modix": null,
+                "carflow": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-10-28 14:12:44",
+            "updated_at": "2019-10-28 14:12:44",
+            "eurotax_id": null
+        },
+        {
+            "id": 113,
+            "slug": {
+                "en": "other",
+                "fr": "autre",
+                "nl": "other"
+            },
+            "category": "color",
+            "vehicle_types": [],
+            "name": {
+                "fr": "Autre",
+                "en": "Other",
+                "nl": "Other",
+                "de": "Other"
+            },
+            "external_id": "other",
+            "providers": {
+                "carflow": null,
+                "modix": null
+            },
+            "disabled": 0,
+            "disabled_at": null,
+            "created_at": "2019-11-02 18:21:07",
+            "updated_at": "2019-11-02 18:21:07",
+            "eurotax_id": null
+        }
+    ],
+    "first_page_url": "http:\/\/api.gocar.be\/v1\/public\/attributes?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/api.gocar.be\/v1\/public\/attributes?page=1",
+    "next_page_url": null,
+    "path": "http:\/\/api.gocar.be\/v1\/public\/attributes",
+    "per_page": "104",
+    "prev_page_url": null,
+    "to": 104,
+    "total": 104
+}

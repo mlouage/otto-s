@@ -1,7 +1,11 @@
 import React from "react"
 
-const ContactPage = () => (
-  <p>Contact</p>
-)
+const ContactPage = () => {
+  return (
+    <>
+      Contact
+    </>
+  )
+}
 
 export default ContactPage;
