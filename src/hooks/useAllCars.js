@@ -15,28 +15,7 @@ const useAllCars = () => {
     }
   `);
 
-  // query {
-  //   allGoCar {
-  //     nodes {
-  //       data {
-  //         id
-  //         brand_name
-  //         model_name {
-  //           nl
-  //         }
-  //         version
-  //         images {
-  //           url
-  //         }
-  //         first_registration(formatString: "MM-YYYY")
-  //         kilometers
-  //         engine_power_kw
-  //         horse_power
-  //         price
-  //       }
-  //     }
-  //   }
-  // }
+
 
   // query {
   //   allGoCar(filter: {data: {elemMatch: {id: {eq: 627219}}}}) {
