@@ -1,3 +1,7 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+});
+
 const VEHICLE_NODE_TYPE = `Vehicle`;
 
 const fetch = require('node-fetch');
@@ -6,6 +10,7 @@ exports.sourceNodes = async ({
     actions,
     createContentDigest,
     createNodeId,
+    reporter
 }) => {
     const { createNode, createTypes } = actions;
 
@@ -71,7 +76,17 @@ exports.sourceNodes = async ({
     `;
     createTypes(typeDefs);
 
-    const response = await fetch('http://localhost:3000/vehicles');
+    const url = process.env.GOCAR_API_URL_VEHICLES;
+
+    if (!url)
+    {
+        reporter.panicOnBuild("No GoCar API URL defined in the environment variables");
+        return;
+    }
+
+    reporter.info(`GoCAR API URL: ${url}`);
+
+    const response = await fetch(url);
     const data = await response.json();
 
     data.data.forEach(vehicle => {
