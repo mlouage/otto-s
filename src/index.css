@@ -14,22 +14,22 @@
 
 .image-gallery-left-nav:hover {
   height: 100%;
-  color: #22543D;
+  color: #FFF;
   background-image:
     linear-gradient(
       to right, 
-      #C6F6D5,
+      #0068A8,
       transparent
     );
 }
 
 .image-gallery-right-nav:hover {
   height: 100%;
-  color: #22543D;
+  color: #FFF;
   background-image:
     linear-gradient(
       to right, 
       transparent,
-      #C6F6D5
+      #0068A8
     );
 }

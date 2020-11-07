@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `otto-s`,
-    description: `Otto-s website`,
+    title: `ottos`,
+    description: `Ottos website`,
     author: `@maartenlouage`,
   },
   plugins: [
@@ -28,5 +28,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`
-  ],
+  ]
 }
