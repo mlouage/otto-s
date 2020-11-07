@@ -1,7 +1,7 @@
 {
-  "name": "otto-s",
+  "name": "ottos",
   "private": true,
-  "description": "Website voor dealer Otto-s.",
+  "description": "Website voor dealer Ottos.",
   "version": "0.1.0",
   "author": "Maarten Louage <me@maartenlouage.nl>",
   "dependencies": {

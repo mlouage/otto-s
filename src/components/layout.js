@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <SEO lang="nl" />     
       <SocialHeader />
       <Navigation />
-      <Main className="mx-auto">
+      <Main className="">
         {children}
       </Main>
       <Footer />

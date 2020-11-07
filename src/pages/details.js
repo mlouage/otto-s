@@ -5,8 +5,6 @@ import queryString from "query-string";
 const DetailsPage = () => {
     const location = useLocation();
 
-    console.log(location);
-
     const carQueryString = queryString.parse(location.search);
     const { car } = carQueryString;
     
