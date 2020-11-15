@@ -1,5 +1,6 @@
 import React from "react"
 import useAllCars from "../hooks/useAllCars"
+import useImageGalleryConfig from "../hooks/useImageGalleryConfig"
 import ImageGallery from "react-image-gallery"
 import { Link } from "gatsby";
 
@@ -11,37 +12,7 @@ const Cars = () => {
         carsToDisplay.push(cars[car])
     }
 
-    var config = {
-        showThumbnails: false,
-        showPlayButton: false,
-        lazyLoad: true,
-        showNav: true,
-        showFullscreenButton: false,
-        disableKeyDown: true,
-        renderLeftNav: (onClick, disabled) => (
-            <button
-                type="button"
-                className="image-gallery-icon image-gallery-left-nav"
-                disabled={disabled}
-                onClick={onClick}
-                aria-label="Previous Slide"
-            >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            </button>
-        ),
-        renderRightNav: (onClick, disabled) => (
-            <button
-                type="button"
-                className="image-gallery-icon image-gallery-right-nav"
-                disabled={disabled}
-                onClick={onClick}
-                aria-label="Next Slide"
-            >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
-            </button>
-        ),
-
-    }
+    var config = useImageGalleryConfig;
 
     return (
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
@@ -54,7 +25,40 @@ const Cars = () => {
                 return (
                     <div>
                         <ImageGallery items={images} {...config} />
-                        <Link to="/details?car=1234">Detail</Link>
+                        <div className="text-gray-600 uppercase tracking-widest mt-4">Porsche</div>
+
+                        <div className="font-bold text-xl mt-4">
+                            <Link to="details?car=1234">Macan FACELIFT 2.0 Turbo PDK Nappa Leder Memory</Link>
+                        </div>
+
+                        <div className="grid grid-cols-3 mt-4">
+                            <div>
+                                <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
+                                <div>01/2019</div>
+                            </div>
+                            <div>
+                                <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
+                                <div>38 556km</div>
+                            </div>
+                            <div>
+                                <div className="text-gray-600 uppercase tracking-widest text-sm">Vermogen</div>
+                                <div>244pk</div>
+                            </div>
+                        </div>
+
+                        <div className="font-bold text-2xl mt-4">
+                            <div>€59 900,00<span className="pl-2 font-normal text-gray-600 tracking-widest text-sm">BTW inclusief</span></div>
+                        </div>
+
+                        <div className="mt-4 w-auto inline-block">
+                            <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to="details?car=1234">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+
+                                <div className="relative">
+                                    <span className="font-bold uppercase ">meer informatie</span>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 )
             })}
