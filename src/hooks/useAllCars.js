@@ -13,24 +13,7 @@ const useAllCars = () => {
         }
       }
     }
-  `);
-
-
-
-  // query {
-  //   allGoCar(filter: {data: {elemMatch: {id: {eq: 627219}}}}) {
-  //     nodes {
-  //       data {
-  //         id
-  //         brand_name
-  //         model_name {
-  //           nl
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-  
+  `);  
 
   const imagesSet = new Set();
 
