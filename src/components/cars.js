@@ -15,7 +15,7 @@ const Cars = () => {
     var config = useImageGalleryConfig;
 
     return (
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
             {carsToDisplay.map(car => {
                 var images = car.map(c => ({
                     original: c.publicURL
