@@ -3,41 +3,41 @@ import { Link } from "gatsby";
 
 const Car = () => (
     <>
-        <div className="grid grid-cols-1 gap-0 lg:grid-cols-4 lg:gap-8 xl:grid-cols-4 xl:gap-8">
+        <div className="grid grid-cols-1 gap-0 md:grid-cols-1 md:gap-0 lg:grid-cols-4 lg:gap-8 xl:grid-cols-4 xl:gap-8">
             <div className="col-span-3">
-                <div className="grid grid-cols-6 gap-2">
-                    <div className="col-span-6">
+                <div className="grid grid-cols-1 gap-0 md:grid-cols-3 md:gap-0 lg:grid-cols-6 lg:gap-2 xl:grid-cols-6 xl:gap-2">
+                    <div className="col-span-1 md:col-span-3 lg:col-span-6 xl:col-span-6">
                         <div className="text-gray-600 uppercase tracking-widest mt-4">Porsche</div>
                         <div className="font-bold text-xl mt-4">
                             Macan FACELIFT 2.0 Turbo PDK Nappa Leder Memory
                         </div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Vermogen</div>
                         <div>462 pk</div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
                         <div>47 373 km</div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
                         <div>08/2018</div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">CO2</div>
                         <div>72 g/km</div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Branstof</div>
                         <div>Benzine</div>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 mt-4">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Transmissie</div>
                         <div>Automaat</div>
                     </div>
-                    <div className="col-span-6 mt-4">
-                        <img src="static/77e184939cd1f8f52289b2844bf4f8ba/xxl_kfz63354356_img_9845.jpg" />
+                    <div className="col-span-1 md:col-span-3 lg:col-span-6 xl:col-span-6 mt-4">
+                        <img src="/static/77e184939cd1f8f52289b2844bf4f8ba/xxl_kfz63354356_img_9845.jpg" />
                     </div>
                 </div>
             </div>
@@ -86,26 +86,26 @@ const Car = () => (
             </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 mt-8">
+        <div className="mt-8 text-center grid justify-items-center grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4 xl:grid-cols-4 xl:gap-4">
             <div className="flex flex-col">
-                <div className="font-bold text-xxl mt-4">2995cc - 462pk</div>
-                <div>47 373 km</div>
+                <div className="font-bold text-xxl mt-4 uppercase">2995cc - 462pk</div>
+                <div className="text-gray-600 uppercase tracking-widest text-sm">47 373 km</div>
             </div>
             <div className="flex flex-col">
-                <div className="font-bold text-xxl mt-4">Ongevalvrij</div>
-                <div>krasvrij en volledige reiniging </div>
+                <div className="font-bold text-xxl mt-4 uppercase">Ongevalvrij</div>
+                <div className="text-gray-600 uppercase tracking-widest text-sm">krasvrij en volledige reiniging </div>
             </div>
             <div className="flex flex-col">
-                <div className="font-bold text-xxl mt-4">Full service historiek</div>
-                <div>én volledig technisch nazicht </div>
+                <div className="font-bold text-xxl mt-4 uppercase">Full service historiek</div>
+                <div className="text-gray-600 uppercase tracking-widest text-sm">én volledig technisch nazicht </div>
             </div>
             <div className="flex flex-col">
-                <div className="font-bold text-xxl mt-4">1 jaar garantie</div>
-                <div>én Ottos approved </div>
+                <div className="font-bold text-xxl mt-4 uppercase">1 jaar garantie</div>
+                <div className="text-gray-600 uppercase tracking-widest text-sm">én Ottos approved </div>
             </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-16">
+        <div className="mt-16 grid justify-items-stretch grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-4">
             <div>
                 <div className="font-bold text-xl mt-4 mb-4">Omschrijving</div>
                 <p>
