@@ -226,3 +226,9 @@ exports.sourceNodes = async ({
 
     return
 }
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+      devtool: 'eval-source-map',
+    })
+  }
