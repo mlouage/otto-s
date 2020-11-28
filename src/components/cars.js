@@ -33,15 +33,15 @@ const Cars = () => {
 
                         <div className="grid grid-cols-3 mt-4">
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
+                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Inschrijving</div>
                                 <div>01/2019</div>
                             </div>
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
+                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Km-stand</div>
                                 <div>38 556km</div>
                             </div>
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">Vermogen</div>
+                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Vermogen</div>
                                 <div>244pk</div>
                             </div>
                         </div>
