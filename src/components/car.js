@@ -174,16 +174,14 @@ const Car = () => {
             </div>
 
             <div className="mt-16">
-                <Gallery photos={photos} onClick={openLightbox} />
+                <Gallery photos={photos} direction={"column"} onClick={openLightbox} />
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
                                 currentIndex={currentImage}
                                 views={photos.map(x => ({
-                                    ...x,
-                                    srcset: x.srcSet,
-                                    caption: x.title
+                                    ...x
                                 }))}
                             />
                         </Modal>
