@@ -3,8 +3,22 @@ require("dotenv").config({
 });
 
 const VEHICLE_NODE_TYPE = `Vehicle`;
-
 const fetch = require('node-fetch');
+
+const slugify = str => {
+    const slug = str
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)+/g, '');
+
+    return `${slug}`.replace(/\/\/+/g, '/');
+};
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+        devtool: 'eval-source-map',
+    })
+}
 
 exports.sourceNodes = async ({
     actions,
@@ -13,6 +27,15 @@ exports.sourceNodes = async ({
     reporter
 }) => {
     const { createNode, createTypes } = actions;
+
+    const url = process.env.GOCAR_API_URL_VEHICLES;
+
+    if (!url) {
+        reporter.panicOnBuild("No GoCar API URL defined in the environment variables.");
+        return;
+    }
+
+    reporter.info(`GoCAR API URL: ${url}`);
 
     const typeDefs = `
         type ${VEHICLE_NODE_TYPE} implements Node {            
@@ -72,19 +95,10 @@ exports.sourceNodes = async ({
             crashed: Boolean
             inStock: Boolean
             pollutionClassName: String
+            options: [String]
         }
     `;
     createTypes(typeDefs);
-
-    const url = process.env.GOCAR_API_URL_VEHICLES;
-
-    if (!url)
-    {
-        reporter.panicOnBuild("No GoCar API URL defined in the environment variables");
-        return;
-    }
-
-    reporter.info(`GoCAR API URL: ${url}`);
 
     const response = await fetch(url);
     const data = await response.json();
@@ -227,8 +241,69 @@ exports.sourceNodes = async ({
     return
 }
 
-exports.onCreateWebpackConfig = ({ actions }) => {
-    actions.setWebpackConfig({
-      devtool: 'eval-source-map',
-    })
-  }
+exports.createResolvers = ({ createResolvers }) => {
+    const url = process.env.GOCAR_API_URL_OPTIONS;
+
+    if (!url) {
+        console.log("No GoCar Options API URL defined in the environment variables.");
+        return;
+    }
+
+    const transformOptions = async (options) => {
+        const transformedOptions = [];
+        for (const option of options) {
+            console.log(`Getting description for option ID ${option}...`);
+            const response = await fetch(`${url}/${option}`);
+            const data = await response.json();
+            const name = data.name.nl;
+            console.log(`Translated ID ${option} into ${name}`);
+            transformedOptions.push(name);
+        }
+
+        return transformedOptions;
+    }
+
+    createResolvers({
+        Vehicle: {
+            options: {
+                resolve: source => transformOptions(source.options)
+            }
+        }
+    });
+};
+
+exports.createPages = async ({ actions, graphql, reporter }) => {
+    const result = await graphql(`
+        query {
+            allVehicle(sort: {fields: price, order: DESC}) {
+                nodes {
+                    id
+                    brandName
+                    modelName
+                    version
+                }
+            }
+        }
+    `);
+
+    if (result.errors) {
+        reporter.panic('Error loading cars', result.errors);
+        return;
+    }
+
+    const cars = result.data.allVehicle.nodes;
+
+    cars.forEach(car => {
+        const slug = slugify(`${car.brandName}-${car.modelName}-${car.version}`);
+
+        reporter.info(`Creating page for ID: ${car.id} with slug ${slug}`);
+
+        actions.createPage({
+            path: `aanbod/${slug}`,
+            component: require.resolve('./src/templates/car-detail.js'),
+            context: {
+                carID: car.id
+            }
+        });
+    });
+};
