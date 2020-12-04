@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import Car from "../components/car"
+
 export const query = graphql`
     query($carID: String!) {
         vehicle(id: { eq: $carID }) {
@@ -15,7 +17,10 @@ export const query = graphql`
 `;
 
 const CarDetailTemplate = ({ data }) => (
-    <pre>{JSON.stringify(data, null, 4)}</pre>
+    <>
+        <Car />
+        <pre>{JSON.stringify(data, null, 4)}</pre>
+    </>
 );
 
 export default CarDetailTemplate;
