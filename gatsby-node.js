@@ -11,7 +11,7 @@ const slugify = str => {
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)+/g, '');
 
-    return `${slug}`.replace(/\/\/+/g, '/');
+    return `aanbod/${slug}`.replace(/\/\/+/g, '/');
 };
 
 exports.onCreateWebpackConfig = ({ actions }) => {
@@ -96,6 +96,8 @@ exports.sourceNodes = async ({
             inStock: Boolean
             pollutionClassName: String
             options: [String]
+            slug: String
+            images: [String]
         }
     `;
     createTypes(typeDefs);
@@ -167,6 +169,12 @@ exports.sourceNodes = async ({
             pollution_class_name: { nl: pollutionClassName } = {}
         } = vehicle;
 
+        const imageUrls = [];
+
+        for(const { url } of images) {
+            imageUrls.push(url);
+        }
+
         createNode({
             id,
             brandId,
@@ -206,7 +214,7 @@ exports.sourceNodes = async ({
             interiorSecondaryColorId,
             interiorMmaterialId,
             options,
-            images,
+            images: imageUrls,
             weight,
             trunkCapacity,
             dimensionWidth,
@@ -267,6 +275,9 @@ exports.createResolvers = ({ createResolvers }) => {
         Vehicle: {
             options: {
                 resolve: source => transformOptions(source.options)
+            },
+            slug: {
+                resolve: source => slugify(`${source.brandName}-${source.modelName}-${source.version}`)
             }
         }
     });
@@ -278,9 +289,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             allVehicle(sort: {fields: price, order: DESC}) {
                 nodes {
                     id
-                    brandName
-                    modelName
-                    version
+                    slug
                 }
             }
         }
@@ -294,12 +303,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const cars = result.data.allVehicle.nodes;
 
     cars.forEach(car => {
-        const slug = slugify(`${car.brandName}-${car.modelName}-${car.version}`);
+        const slug = car.slug;
 
         reporter.info(`Creating page for ID: ${car.id} with slug ${slug}`);
 
         actions.createPage({
-            path: `aanbod/${slug}`,
+            path: `${slug}`,
             component: require.resolve('./src/templates/car-detail.js'),
             context: {
                 carID: car.id
