@@ -14,7 +14,7 @@ const Cars = ({data}) => {
                 }
                 ));
                 return (
-                    <div>
+                    <div key={car.slug}>
                         <ImageGallery items={images} {...config} />
                         <div className="text-gray-600 uppercase tracking-widest mt-4">{car.brandName}</div>
 
@@ -43,7 +43,7 @@ const Cars = ({data}) => {
 
                         <div className="mt-4 w-auto inline-block">
                             <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to={car.slug}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
 
                                 <div className="relative">
                                     <span className="font-bold uppercase ">meer informatie</span>

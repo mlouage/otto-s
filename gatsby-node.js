@@ -98,6 +98,9 @@ exports.sourceNodes = async ({
             options: [String]
             slug: String
             images: [String]
+            fuelType: String
+            gearBox: String
+            transmission: String
         }
     `;
     createTypes(typeDefs);
@@ -171,7 +174,7 @@ exports.sourceNodes = async ({
 
         const imageUrls = [];
 
-        for(const { url } of images) {
+        for (const { url } of images) {
             imageUrls.push(url);
         }
 
@@ -250,10 +253,17 @@ exports.sourceNodes = async ({
 }
 
 exports.createResolvers = ({ createResolvers }) => {
-    const url = process.env.GOCAR_API_URL_OPTIONS;
+    const optionsUrl = process.env.GOCAR_API_URL_OPTIONS;
 
-    if (!url) {
+    if (!optionsUrl) {
         console.log("No GoCar Options API URL defined in the environment variables.");
+        return;
+    }
+
+    const attributesUrl = process.env.GOCAR_API_URL_ATTRIBUTES;
+
+    if (!attributesUrl) {
+        console.log("No GoCar Attributes API URL defined in the environment variables.");
         return;
     }
 
@@ -261,7 +271,7 @@ exports.createResolvers = ({ createResolvers }) => {
         const transformedOptions = [];
         for (const option of options) {
             console.log(`Getting description for option ID ${option}...`);
-            const response = await fetch(`${url}/${option}`);
+            const response = await fetch(`${optionsUrl}/${option}`);
             const data = await response.json();
             const name = data.name.nl;
             console.log(`Translated ID ${option} into ${name}`);
@@ -271,6 +281,16 @@ exports.createResolvers = ({ createResolvers }) => {
         return transformedOptions;
     }
 
+    const transformAttributeFromId = async (attributeId) => {
+        console.log(`Getting description for attribute ID ${attributeId}...`);
+        const response = await fetch(`${attributesUrl}/${attributeId}`);
+        const data = await response.json();
+        const name = data.name.nl;
+        console.log(`Translated ID ${attributeId} into ${name}`);
+
+        return name;
+    }
+
     createResolvers({
         Vehicle: {
             options: {
@@ -278,7 +298,16 @@ exports.createResolvers = ({ createResolvers }) => {
             },
             slug: {
                 resolve: source => slugify(`${source.brandName}-${source.modelName}-${source.version}`)
-            }
+            },
+            fuelType: {
+                resolve: source => transformAttributeFromId(source.fuelTypeId)
+            },
+            gearBox: {
+                resolve: source => transformAttributeFromId(source.gearboxId)
+            },
+            transmission: {
+                resolve: source => transformAttributeFromId(source.transmissionId)
+            },
         }
     });
 };

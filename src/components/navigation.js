@@ -5,7 +5,9 @@ import Logo from "../images/Logo_2.png"
 const Navigation = () => (
     <div className="pl-8 pr-8 h-40 md:h-32 flex flex-col md:flex-row justify-center md:justify-between items-center bg-black text-white">
         <div  className="p-4 md:p-0">
-            <img src={Logo} alt="Ottos" />
+            <Link to="/">
+                <img src={Logo} alt="Ottos" />
+            </Link>
         </div>
         <div className="uppercase font-bold tracking-widest p-4 md:p-0">
             <ul className="h-full flex justify-between items-center">
