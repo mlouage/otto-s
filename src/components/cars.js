@@ -29,7 +29,7 @@ const Cars = ({data}) => {
                             </div>
                             <div>
                                 <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Km-stand</div>
-                                <div>{car.kilometers} km</div>
+                                <div>{ new Intl.NumberFormat('nl-BE', {style: 'unit', unit: 'kilometer', unitDisplay: 'short'}).format(car.kilometers) }</div>
                             </div>
                             <div>
                                 <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Vermogen</div>
@@ -38,7 +38,7 @@ const Cars = ({data}) => {
                         </div>
 
                         <div className="font-bold text-2xl mt-4">
-                            <div>€{car.price}<span className="pl-2 font-normal text-gray-600 tracking-widest text-sm">BTW inclusief</span></div>
+                            <div>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(car.price)}<span className="pl-2 font-normal text-gray-600 tracking-widest text-sm">BTW inclusief</span></div>
                         </div>
 
                         <div className="mt-4 w-auto inline-block">

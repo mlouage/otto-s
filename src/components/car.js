@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import { Link } from "gatsby";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import CarPassLogo from "../images/carpass.png";
 
 const Car = ({ vehicle }) => {
 
@@ -43,7 +44,7 @@ const Car = ({ vehicle }) => {
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
-                            <div>{vehicle.kilometers} km</div>
+                            <div>{ new Intl.NumberFormat('nl-BE', {style: 'unit', unit: 'kilometer', unitDisplay: 'short'}).format(vehicle.kilometers) }</div>
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
@@ -69,20 +70,9 @@ const Car = ({ vehicle }) => {
                 <div className="col-span-1 mt-4">
                     <div className="grid grid-cols-1">
                         <div className="bg-black p-8 text-white font-bold text-xl">
-                            <span>€ {vehicle.price} <span className="pl-2 font-normal tracking-widest text-sm">BTW inclusief</span></span>
+                            <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)} <span className="pl-2 font-normal tracking-widest text-sm">BTW inclusief</span></span>
                         </div>
-                        <div className="bg-gray-300 p-8">
-                            <div className="font-bold text-xl pb-4">Deze wagen kopen?</div>
-                            <div className="mt-4 w-auto inline-block">
-                                <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
-
-                                    <div className="relative">
-                                        <span className="font-bold uppercase ">Koop nu</span>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
+                    
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
                             <div className="font-bold text-xl pb-4">Een vraag over deze wagen?</div>
                             <div className="mt-4 w-auto inline-block">
@@ -96,7 +86,9 @@ const Car = ({ vehicle }) => {
                             </div>
                         </div>
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
-                            <div className="font-bold text-xl pb-4">Check de CarPass van deze Otto</div>
+                            <div className="pb-4">
+                                <img src={CarPassLogo} alt="CarPass" />
+                            </div>
                             <div className="mt-4 w-auto inline-block">
                                 <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to={vehicle.carpassCheck}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -111,22 +103,18 @@ const Car = ({ vehicle }) => {
                 </div>
             </div>
 
-            <div className="mt-8 text-center grid justify-items-center grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4 xl:grid-cols-4 xl:gap-4">
-                <div className="flex flex-col">
-                    <div className="font-bold text-xxl mt-4 uppercase">{vehicle.cylinderCapacity} cc - {vehicle.horsePower} pk</div>
-                    <div className="text-gray-600 uppercase tracking-widest text-sm">{vehicle.kilometers} km</div>
-                </div>
+            <div className="mt-8 text-center grid justify-items-center grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-4 xl:grid-cols-3 xl:gap-4">
                 <div className="flex flex-col">
                     <div className="font-bold text-xxl mt-4 uppercase">Ongevalvrij</div>
-                    <div className="text-gray-600 uppercase tracking-widest text-sm">krasvrij en volledige reiniging </div>
+                    <div className="text-gray-600 uppercase tracking-widest text-sm">krasvrij en volledige reiniging</div>
                 </div>
                 <div className="flex flex-col">
-                    <div className="font-bold text-xxl mt-4 uppercase">Full service historiek</div>
-                    <div className="text-gray-600 uppercase tracking-widest text-sm">én volledig technisch nazicht </div>
+                    <div className="font-bold text-xxl mt-4 uppercase">Volledig technisch nazicht</div>
+                    <div className="text-gray-600 uppercase tracking-widest text-sm">én CarPass Check</div>
                 </div>
                 <div className="flex flex-col">
                     <div className="font-bold text-xxl mt-4 uppercase">1 jaar garantie</div>
-                    <div className="text-gray-600 uppercase tracking-widest text-sm">én Ottos approved </div>
+                    <div className="text-gray-600 uppercase tracking-widest text-sm">én Otto-s approved</div>
                 </div>
             </div>
 
@@ -146,14 +134,31 @@ const Car = ({ vehicle }) => {
                     <div className="grid grid-cols-2">
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Deuren</div>
                         <div>{vehicle.numberOfDoors} deuren</div>
+
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Zitplaatsen</div>
                         <div>{vehicle.numberOfSeats} zitplaatsen</div>
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Cylinder</div>
-                        <div>{vehicle.numberOfCyclinders} cylinders</div>
+                        
+                        {vehicle.numberOfCyclinders && 
+                            <>
+                                <div className="text-gray-600 uppercase tracking-widest text-sm">Cylinder</div>
+                                <div>{vehicle.numberOfCyclinders} cylinders</div>
+                            </>
+                        }
+                        
+
                         <div className="text-gray-600 uppercase tracking-widest text-sm">Versnellingen</div>
                         <div>{vehicle.numberOfGears} versnellingen</div>
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">...</div>
-                        <div>...</div>
+
+                        <div className="text-gray-600 uppercase tracking-widest text-sm">BTW aftrekbaar</div>
+                        <div>{vehicle.VATdeductible ? "Ja" : "Nee"}</div>
+
+                        {false && 
+                            <>
+                                <div className="text-gray-600 uppercase tracking-widest text-sm">...</div>
+                                <div>...</div>
+                            </>
+                        }
+
                     </div>
                 </div>
             </div>

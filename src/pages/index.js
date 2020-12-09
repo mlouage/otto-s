@@ -4,7 +4,7 @@ import Cars from "../components/cars"
 
 export const query = graphql`
   query {
-    allVehicle {
+    allVehicle(sort: {fields: price, order: ASC}) {
       nodes {
         id
         brandName

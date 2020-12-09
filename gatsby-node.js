@@ -282,6 +282,10 @@ exports.createResolvers = ({ createResolvers }) => {
     }
 
     const transformAttributeFromId = async (attributeId) => {
+        if (!attributeId) {
+            return
+        }
+        
         console.log(`Getting description for attribute ID ${attributeId}...`);
         const response = await fetch(`${attributesUrl}/${attributeId}`);
         const data = await response.json();
