@@ -71,10 +71,11 @@ exports.sourceNodes = async ({
             serviceCheckBook: Boolean
             vin: String
             paintTypeId: Int
+            mainColorId: Int
             colorMetallic: String
             interiorMainColorId: Int
             interiorSecondaryColorId: Int
-            interiorMmaterialId: Int
+            interiorMaterialId: Int
             weight: Float
             trunkCapacity: Float
             dimensionWidth: Float
@@ -101,6 +102,11 @@ exports.sourceNodes = async ({
             fuelType: String
             gearBox: String
             transmission: String
+            bodyStyle: String
+            mainColor: String
+            interiorMaterial: String
+            interiorMainColor: String
+            interiorSecondaryColor: String
         }
     `;
     createTypes(typeDefs);
@@ -131,7 +137,7 @@ exports.sourceNodes = async ({
             fiscal_horse_power: fiscalHorsePower,
             engine_power_kw: enginePowerKw,
             cylinder_capacity: cylinderCapacity,
-            number_of_cylinder: numberOfCylinders,
+            number_of_cylinders: numberOfCylinders,
             battery_capacity: batteryCapacity,
             kilometers,
             warranty_months: warrantyMonths,
@@ -147,7 +153,8 @@ exports.sourceNodes = async ({
             color_metallic: colorMetallic,
             interior_main_color_id: interiorMainColorId,
             interior_secondary_color_id: interiorSecondaryColorId,
-            interior_material_id: interiorMmaterialId,
+            interior_material_id: interiorMaterialId,
+            main_color_id: mainColorId,
             options,
             images,
             weight,
@@ -213,9 +220,10 @@ exports.sourceNodes = async ({
             vin,
             paintTypeId,
             colorMetallic,
+            mainColorId,
             interiorMainColorId,
             interiorSecondaryColorId,
-            interiorMmaterialId,
+            interiorMaterialId,
             options,
             images: imageUrls,
             weight,
@@ -270,10 +278,10 @@ exports.createResolvers = ({ createResolvers }) => {
     const transformOptions = async (options) => {
         const transformedOptions = [];
         for (const option of options) {
-            console.log(`Getting description for option ID ${option}...`);
             const response = await fetch(`${optionsUrl}/${option}`);
             const data = await response.json();
             const name = data.name.nl;
+
             console.log(`Translated ID ${option} into ${name}`);
             transformedOptions.push(name);
         }
@@ -286,7 +294,6 @@ exports.createResolvers = ({ createResolvers }) => {
             return
         }
         
-        console.log(`Getting description for attribute ID ${attributeId}...`);
         const response = await fetch(`${attributesUrl}/${attributeId}`);
         const data = await response.json();
         const name = data.name.nl;
@@ -297,11 +304,11 @@ exports.createResolvers = ({ createResolvers }) => {
 
     createResolvers({
         Vehicle: {
-            options: {
-                resolve: source => transformOptions(source.options)
-            },
             slug: {
                 resolve: source => slugify(`${source.brandName}-${source.modelName}-${source.version}`)
+            },
+            options: {
+                resolve: source => transformOptions(source.options)
             },
             fuelType: {
                 resolve: source => transformAttributeFromId(source.fuelTypeId)
@@ -311,6 +318,21 @@ exports.createResolvers = ({ createResolvers }) => {
             },
             transmission: {
                 resolve: source => transformAttributeFromId(source.transmissionId)
+            },
+            mainColor: {
+                resolve: source => transformAttributeFromId(source.mainColorId)
+            },
+            bodyStyle: {
+                resolve: source => transformAttributeFromId(source.bodyStyleId)
+            },
+            interiorMaterial: {
+                resolve: source => transformAttributeFromId(source.interiorMaterialId)
+            },
+            interiorMainColor: {
+                resolve: source => transformAttributeFromId(source.interiorMainColorId)
+            },
+            interiorSecondaryColor: {
+                resolve: source => transformAttributeFromId(source.interiorSecondaryColorId)
             },
         }
     });

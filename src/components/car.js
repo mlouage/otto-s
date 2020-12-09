@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import CarPassLogo from "../images/carpass.png";
+import Specification from "./specification"
 
 const Car = ({ vehicle }) => {
 
@@ -25,7 +26,7 @@ const Car = ({ vehicle }) => {
         setViewerIsOpen(false);
     };
 
-    const setDescription = () => ( {__html: vehicle.description} );
+    const setDescription = () => ({ __html: vehicle.description });
 
     return (
         <>
@@ -44,7 +45,7 @@ const Car = ({ vehicle }) => {
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
-                            <div>{ new Intl.NumberFormat('nl-BE', {style: 'unit', unit: 'kilometer', unitDisplay: 'short'}).format(vehicle.kilometers) }</div>
+                            <div>{new Intl.NumberFormat('nl-BE', { style: 'unit', unit: 'kilometer', unitDisplay: 'short' }).format(vehicle.kilometers)}</div>
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
@@ -70,9 +71,9 @@ const Car = ({ vehicle }) => {
                 <div className="col-span-1 mt-4">
                     <div className="grid grid-cols-1">
                         <div className="bg-black p-8 text-white font-bold text-xl">
-                            <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)} <span className="pl-2 font-normal tracking-widest text-sm">BTW inclusief</span></span>
+                            <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)}</span>
                         </div>
-                    
+
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
                             <div className="font-bold text-xl pb-4">Een vraag over deze wagen?</div>
                             <div className="mt-4 w-auto inline-block">
@@ -132,33 +133,23 @@ const Car = ({ vehicle }) => {
                 <div>
                     <div className="font-bold text-xl mt-4 mb-4">Technische specificaties</div>
                     <div className="grid grid-cols-2">
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Deuren</div>
-                        <div>{vehicle.numberOfDoors} deuren</div>
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Zitplaatsen</div>
-                        <div>{vehicle.numberOfSeats} zitplaatsen</div>
-                        
-                        {vehicle.numberOfCyclinders && 
-                            <>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">Cylinder</div>
-                                <div>{vehicle.numberOfCyclinders} cylinders</div>
-                            </>
-                        }
-                        
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Versnellingen</div>
-                        <div>{vehicle.numberOfGears} versnellingen</div>
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">BTW aftrekbaar</div>
-                        <div>{vehicle.VATdeductible ? "Ja" : "Nee"}</div>
-
-                        {false && 
-                            <>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">...</div>
-                                <div>...</div>
-                            </>
-                        }
-
+                        <Specification label="Carroserie" specification={vehicle.bodyStyle} />
+                        <Specification label="Deuren" specification={vehicle.numberOfDoors} unit="deuren" />
+                        <Specification label="Zitplaatsen" specification={vehicle.numberOfSeats} unit="zitplaatsen" />
+                        <Specification label="Aandrijving" specification={vehicle.transmission} />
+                        <Specification label="Transmissie" specification={vehicle.gearBox} />
+                        <Specification label="Vermogen" specification={vehicle.horsePower} unit="pk"/>
+                        <Specification label="Cylinders" specification={vehicle.numberOfCylinders} unit="cylinders" />
+                        <Specification label="Cylinderinhoud" specification={vehicle.cylinderCapacity} unit="cc" />
+                        <Specification label="Gewicht" specification={vehicle.weight} unit="kg" />
+                        <Specification label="CO2 uitstoot" specification={vehicle.CO2Emissions} unit="g/km" />
+                        <Specification label="Emissieklasse" specification={vehicle.pollutionClassName} />
+                        <Specification label="Metallic lak" specification={vehicle.colorMetallic === 1 ? "Ja" : "Nee"} />
+                        <Specification label="Kleur" specification={vehicle.mainColor} />
+                        <Specification label="Interieur" specification={vehicle.interiorMaterial} />
+                        <Specification label="Interieur hoofdkleur" specification={vehicle.interiorMainColor} />
+                        <Specification label="Interieur 2de kleur" specification={vehicle.interiorSecondaryColor} />
+                        <Specification label="BTW aftrekbaar" specification={vehicle.VATdeductible ? "Ja" : "Nee"} />
                     </div>
                 </div>
             </div>
