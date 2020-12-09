@@ -38,7 +38,7 @@ const Cars = ({data}) => {
                         </div>
 
                         <div className="font-bold text-2xl mt-4">
-                            <div>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(car.price)}<span className="pl-2 font-normal text-gray-600 tracking-widest text-sm">BTW inclusief</span></div>
+                            <div>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(car.price)}</div>
                         </div>
 
                         <div className="mt-4 w-auto inline-block">

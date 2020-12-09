@@ -17,8 +17,6 @@ export const query = graphql`
             VATdeductible
             batteryCapacity
             batteryRental
-            bodyStyleId
-            brandId
             builtYear(formatString: "MM/YYYY")
             dimensionHeight
             dimensionLength
@@ -26,18 +24,12 @@ export const query = graphql`
             enginePowerKw
             firstRegistration(formatString: "MM/YYYY")
             fiscalHorsePower
-            fuelTypeId
-            gearboxId
             horsePower
             id
             images
             inStock
             inspectionValidUntil
-            interiorMmaterialId
-            interiorMainColorId
-            interiorSecondaryColorId
             kilometers
-            modelId
             modelName
             nonSmokingVehicle
             numberOfCylinders
@@ -46,7 +38,6 @@ export const query = graphql`
             numberOfPreviousOwners
             numberOfSeats
             onDiscount
-            paintTypeId
             options
             pollutionClassName
             price
@@ -58,7 +49,6 @@ export const query = graphql`
             smokeFilter
             sold
             totalPriceOfRepairs
-            transmissionId
             trunkCapacity
             vehicleType
             version
@@ -68,6 +58,11 @@ export const query = graphql`
             gearBox
             fuelType
             transmission
+            bodyStyle
+            mainColor
+            interiorMaterial
+            interiorMainColor
+            interiorSecondaryColor
         }
     }
 

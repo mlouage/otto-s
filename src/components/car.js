@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import CarPassLogo from "../images/carpass.png";
+import Specification from "./specification"
 
 const Car = ({ vehicle }) => {
 
@@ -70,7 +71,7 @@ const Car = ({ vehicle }) => {
                 <div className="col-span-1 mt-4">
                     <div className="grid grid-cols-1">
                         <div className="bg-black p-8 text-white font-bold text-xl">
-                            <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)} <span className="pl-2 font-normal tracking-widest text-sm">BTW inclusief</span></span>
+                            <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)}</span>
                         </div>
                     
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
@@ -132,33 +133,11 @@ const Car = ({ vehicle }) => {
                 <div>
                     <div className="font-bold text-xl mt-4 mb-4">Technische specificaties</div>
                     <div className="grid grid-cols-2">
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Deuren</div>
-                        <div>{vehicle.numberOfDoors} deuren</div>
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Zitplaatsen</div>
-                        <div>{vehicle.numberOfSeats} zitplaatsen</div>
-                        
-                        {vehicle.numberOfCyclinders && 
-                            <>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">Cylinder</div>
-                                <div>{vehicle.numberOfCyclinders} cylinders</div>
-                            </>
-                        }
-                        
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">Versnellingen</div>
-                        <div>{vehicle.numberOfGears} versnellingen</div>
-
-                        <div className="text-gray-600 uppercase tracking-widest text-sm">BTW aftrekbaar</div>
-                        <div>{vehicle.VATdeductible ? "Ja" : "Nee"}</div>
-
-                        {false && 
-                            <>
-                                <div className="text-gray-600 uppercase tracking-widest text-sm">...</div>
-                                <div>...</div>
-                            </>
-                        }
-
+                        <Specification label="Deuren" specification={vehicle.numberOfDoors} unit="deuren" />
+                        <Specification label="Zitplaatsen" specification={vehicle.numberOfSeats} unit="zitplaatsen" />
+                        <Specification label="Cylinders" specification={vehicle.numberOfCyclinders} unit="cylinders" />
+                        <Specification label="Versnellingen" specification={vehicle.numberOfGears} unit="versnellingen" />
+                        <Specification label="BTW aftrekbaar" specification={vehicle.numbeVATdeductiblerOfGears} />
                     </div>
                 </div>
             </div>
