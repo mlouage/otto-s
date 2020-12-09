@@ -137,7 +137,7 @@ exports.sourceNodes = async ({
             fiscal_horse_power: fiscalHorsePower,
             engine_power_kw: enginePowerKw,
             cylinder_capacity: cylinderCapacity,
-            number_of_cylinder: numberOfCylinders,
+            number_of_cylinders: numberOfCylinders,
             battery_capacity: batteryCapacity,
             kilometers,
             warranty_months: warrantyMonths,
