@@ -45,7 +45,7 @@ const Car = ({ vehicle }) => {
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
-                            <div>{new Intl.NumberFormat('nl-BE', { style: 'unit', unit: 'kilometer', unitDisplay: 'short' }).format(vehicle.kilometers)}</div>
+                            <div>{vehicle.kilometers}</div>
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>
