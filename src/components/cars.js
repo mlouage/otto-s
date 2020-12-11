@@ -29,7 +29,7 @@ const Cars = ({data}) => {
                             </div>
                             <div>
                                 <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Km-stand</div>
-                                <div>{ new Intl.NumberFormat('nl-BE', {style: 'unit', unit: 'kilometer', unitDisplay: 'short'}).format(car.kilometers) }</div>
+                                <div>{ car.kilometers }</div>
                             </div>
                             <div>
                                 <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Vermogen</div>
