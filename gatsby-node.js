@@ -312,7 +312,7 @@ exports.createResolvers = ({ createResolvers }) => {
         
         const autoscout24BaseImagesUrl = "https://prod.pictures.autoscout24.net/listing-images";
         const url = `https://www.autoscout24.be/nl/${slug}-${hash}`;
-        
+
         console.log(`Getting image urls for ${url}`);
 
         const response = await fetch(url);
@@ -378,7 +378,7 @@ exports.createResolvers = ({ createResolvers }) => {
                     const fuelType = await transformAttributeFromId(source.fuelTypeId);
                     const mainColor = await transformAttributeFromId(source.mainColorId);
                     const slug = slugify(`${source.brandName}-${source.modelName}-${source.version}-${fuelType}-${mainColor}`);
-                    await buildAutoScout24Images(slug, source.images[0])
+                    return await buildAutoScout24Images(slug, source.images[0]);
                 }
             }
         }
