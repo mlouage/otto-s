@@ -72,7 +72,6 @@ export const query = graphql`
 const CarDetailTemplate = ({ data: { vehicle } }) => (
     <>
         <Car vehicle={ vehicle }/>
-        <pre>{JSON.stringify(vehicle, null, 4)}</pre>
     </>
 );
 
