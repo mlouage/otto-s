@@ -313,7 +313,7 @@ exports.createResolvers = ({ createResolvers }) => {
         const autoscout24BaseImagesUrl = "https://prod.pictures.autoscout24.net/listing-images";
         const url = `https://www.autoscout24.be/nl/${slug}-${hash}`;
 
-        console.log(`Getting image urls for ${url}`);
+        console.log(`Getting Autoscout24 image urls for ${url}`);
 
         const response = await fetch(url);
         const body = await response.text();
@@ -328,7 +328,6 @@ exports.createResolvers = ({ createResolvers }) => {
                     if (parts.length >= 5) {
                         const imageUrl = `${autoscout24BaseImagesUrl}/${parts[4]}`;
                         images.push(`${imageUrl}`);
-                        console.log(imageUrl);
                     }
                 }
             });

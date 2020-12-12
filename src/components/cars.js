@@ -9,7 +9,7 @@ const Cars = ({data}) => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
             {data.map(car => {
-                var images = car.images.map(c => ({
+                var images = car.autoscout24Images.map(c => ({
                     original: c
                 }
                 ));
