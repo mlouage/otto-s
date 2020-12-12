@@ -16,6 +16,7 @@ export const query = graphql`
         price
         slug
         images
+        autoscout24Images
       }
     }
   }

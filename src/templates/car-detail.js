@@ -63,6 +63,7 @@ export const query = graphql`
             interiorMaterial
             interiorMainColor
             interiorSecondaryColor
+            autoscout24Images
         }
     }
 

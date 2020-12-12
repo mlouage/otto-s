@@ -4,6 +4,7 @@ require("dotenv").config({
 
 const VEHICLE_NODE_TYPE = `Vehicle`;
 const fetch = require('node-fetch');
+const parser = require("node-html-parser");
 
 const slugify = str => {
     const slug = str
@@ -62,8 +63,8 @@ exports.sourceNodes = async ({
             batteryCapacity: Float
             kilometers: Int
             warrantyMonths: Int
-            builtYear: Date
-            firstRegistration: Date
+            builtYear: Date @dateformat
+            firstRegistration: Date @dateformat
             numberOfPreviousOwners: Int
             nonSmokingVehicle: Boolean
             inspectionValidUntil: Date
@@ -107,6 +108,7 @@ exports.sourceNodes = async ({
             interiorMaterial: String
             interiorMainColor: String
             interiorSecondaryColor: String
+            autoscout24Images: [String]
         }
     `;
     createTypes(typeDefs);
@@ -302,10 +304,46 @@ exports.createResolvers = ({ createResolvers }) => {
         return name;
     }
 
+    const buildAutoScout24Images = async (slug, imageUrl) => {
+
+        const splittedImageUrl = imageUrl.split('/');
+        const hash = splittedImageUrl[splittedImageUrl.length - 1].split('_')[0];
+        const images = [];
+        
+        const autoscout24BaseImagesUrl = "https://prod.pictures.autoscout24.net/listing-images";
+        const url = `https://www.autoscout24.be/nl/${slug}-${hash}`;
+
+        console.log(`Getting Autoscout24 image urls for ${url}`);
+
+        const response = await fetch(url);
+        const body = await response.text();
+        const root = parser.parse(body);
+        const imgs = root.querySelectorAll("img[src]");
+        if (imgs) {
+            imgs.map((item) => {
+                const url = item._rawAttrs['data-src'];
+
+                if (url) {
+                    const parts = url.split("/");
+                    if (parts.length >= 5) {
+                        const imageUrl = `${autoscout24BaseImagesUrl}/${parts[4]}`;
+                        images.push(`${imageUrl}`);
+                    }
+                }
+            });
+        }
+
+        return images;
+    }
+
     createResolvers({
         Vehicle: {
             slug: {
-                resolve: source => slugify(`${source.brandName}-${source.modelName}-${source.version}`)
+                resolve: async source => {
+                    const fuelType = await transformAttributeFromId(source.fuelTypeId);
+                    const mainColor = await transformAttributeFromId(source.mainColorId);
+                    return slugify(`${source.brandName}-${source.modelName}-${source.version}-${fuelType}-${mainColor}`)
+                }
             },
             options: {
                 resolve: source => transformOptions(source.options)
@@ -334,6 +372,14 @@ exports.createResolvers = ({ createResolvers }) => {
             interiorSecondaryColor: {
                 resolve: source => transformAttributeFromId(source.interiorSecondaryColorId)
             },
+            autoscout24Images: {
+                resolve: async source => {
+                    const fuelType = await transformAttributeFromId(source.fuelTypeId);
+                    const mainColor = await transformAttributeFromId(source.mainColorId);
+                    const slug = slugify(`${source.brandName}-${source.modelName}-${source.version}-${fuelType}-${mainColor}`);
+                    return await buildAutoScout24Images(slug, source.images[0]);
+                }
+            }
         }
     });
 };
