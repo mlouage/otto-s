@@ -3,78 +3,70 @@
         "current_page": 1,
         "data": [
             {
-                "id": 829781,
-                "slug": "AU1233-408064328",
+                "id": 852789,
+                "slug": "AU1233-408114058",
                 "point_of_sale_id": 1233,
-                "brand_id": 41,
-                "model_id": 1453,
+                "brand_id": 59,
+                "model_id": 379,
                 "model_text": null,
-                "version": "1.6 dCi 2WD Tekna Xtronic",
+                "version": "1.4 D-4D Luna",
                 "description": {
-                    "fr": "Zeer mooie Nissan X-trail met uigebreid optiepakket zoals lederen zetels, panoramisch en open dak, zetelverwarming, cruise control, lane departure warning system, 360\u00b0 camera + sensoren, afneembare trekhaak, nooit gebruikte hondenkooi, ...<br><br>Wagen is op foto's voorzien van 17 inch wintervelgen, zeer mooie 19 inch zomervelgen zijn ook aanwezig (zie foto). Er is ook een set rubberen wintermatten bij voor zowel het interieur als de koffer.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97",
-                    "nl": "Zeer mooie Nissan X-trail met uigebreid optiepakket zoals lederen zetels, panoramisch en open dak, zetelverwarming, cruise control, lane departure warning system, 360\u00b0 camera + sensoren, afneembare trekhaak, nooit gebruikte hondenkooi, ...<br><br>Wagen is op foto's voorzien van 17 inch wintervelgen, zeer mooie 19 inch zomervelgen zijn ook aanwezig (zie foto). Er is ook een set rubberen wintermatten bij voor zowel het interieur als de koffer.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97",
-                    "en": "Zeer mooie Nissan X-trail met uigebreid optiepakket zoals lederen zetels, panoramisch en open dak, zetelverwarming, cruise control, lane departure warning system, 360\u00b0 camera + sensoren, afneembare trekhaak, nooit gebruikte hondenkooi, ...<br><br>Wagen is op foto's voorzien van 17 inch wintervelgen, zeer mooie 19 inch zomervelgen zijn ook aanwezig (zie foto). Er is ook een set rubberen wintermatten bij voor zowel het interieur als de koffer.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97"
+                    "fr": "Propere Toyota Verso-S met navigatie systeem, bluetooth met spraakbediening, achteruitrijcamera, licht metalen velgen...<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>",
+                    "nl": "Propere Toyota Verso-S met navigatie systeem, bluetooth met spraakbediening, achteruitrijcamera, licht metalen velgen...<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>",
+                    "en": "Propere Toyota Verso-S met navigatie systeem, bluetooth met spraakbediening, achteruitrijcamera, licht metalen velgen...<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>"
                 },
-                "internal_description": "408064328",
+                "internal_description": "408114058",
                 "category": null,
                 "usage_category": null,
                 "vehicle_type": "car",
                 "fuel_type_id": 22,
                 "number_of_doors": 5,
                 "number_of_seats": 5,
-                "body_style_id": 81,
-                "gearbox_id": 34,
-                "number_of_gears": 1,
+                "body_style_id": 79,
+                "gearbox_id": 35,
+                "number_of_gears": 6,
                 "transmission_id": 61,
                 "smoke_filter": 0,
-                "horse_power": 130,
+                "horse_power": 89,
                 "fiscal_horse_power": null,
-                "engine_power_kw": 96,
-                "cylinder_capacity": 1598,
+                "engine_power_kw": 66,
+                "cylinder_capacity": 1364,
                 "number_of_cylinders": 4,
                 "battery_capacity": null,
-                "kilometers": "65973.00",
+                "kilometers": "113900.00",
                 "warranty_months": 12,
-                "built_year": "2017-03-01",
-                "first_registration": "2017-03-01",
+                "built_year": "2011-09-01",
+                "first_registration": "2011-09-01",
                 "number_of_previous_owners": 0,
                 "non_smoking_vehicle": 0,
                 "inspection_valid_until": null,
                 "availability": null,
-                "CO2_emissions": "139",
-                "pollution_class_id": 54,
+                "CO2_emissions": "113",
+                "pollution_class_id": 53,
                 "service_check_book": 0,
-                "vin": "jn1tcat32u0047387",
+                "vin": "JTDKC3C3301003847",
                 "show_phone": 0,
-                "main_color_id": 2,
+                "main_color_id": null,
                 "secondary_color_id": null,
                 "paint_type_id": null,
-                "color_metallic": 0,
+                "color_metallic": 1,
                 "interior_main_color_id": null,
                 "interior_secondary_color_id": null,
-                "interior_material_id": 47,
+                "interior_material_id": 41,
                 "options": [
-                    44,
                     20,
                     55,
                     90,
                     33,
-                    16,
                     18,
                     1,
-                    58,
+                    37,
                     47,
                     6,
-                    61,
-                    83,
                     84,
                     7,
-                    80,
-                    26,
-                    60,
                     46,
                     91,
-                    32,
                     73,
                     40,
                     39,
@@ -83,53 +75,44 @@
                 ],
                 "images": [
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_01.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_01.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_02.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_02.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_03.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_03.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_04.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_04.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_05.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_05.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_06.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_06.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_07.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_07.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_08.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_08.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_09.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_09.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_10.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_10.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_11.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_11.jpg"
                     },
                     {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_12.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_13.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_14.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/26690d6e-b551-47ee-a127-073f61e0ed50_15.jpg"
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/094b64b5-6f71-403f-a8d3-e27b974efef5_12.jpg"
                     }
                 ],
                 "video": null,
-                "weight": "1540",
+                "weight": "1135",
                 "trunk_capacity": null,
                 "dimension_width": null,
                 "dimension_length": null,
@@ -137,7 +120,7 @@
                 "purchase_price": null,
                 "price_excl_tax": null,
                 "VAT": null,
-                "price": "18250.00",
+                "price": "5950.00",
                 "total_price_of_repairs": null,
                 "professional_price": null,
                 "discount": null,
@@ -149,7 +132,7 @@
                 "battery_rental": 0,
                 "new": 0,
                 "sold": 0,
-                "carpass_check": "https:\/\/public.car-pass.be\/vhr\/090d1ade-a019-4598-ac71-7d4ea9ed2435",
+                "carpass_check": "https:\/\/public.car-pass.be\/vhr\/c65444a8-ce68-441e-bbca-5798b3dabcb4",
                 "crashed": 0,
                 "transformed": 0,
                 "ad_quality": 0,
@@ -159,16 +142,16 @@
                 "warranty_type_id": null,
                 "hash": null,
                 "origin": "import",
-                "external_id": "AU1233-408064328",
-                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-08 03:20:44\"}",
+                "external_id": "AU1233-408114058",
+                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-16 11:10:05\"}",
                 "published": 1,
-                "published_at": "2020-12-07 23:55:05",
+                "published_at": "2020-12-16 11:10:05",
                 "unpublished_at": null,
                 "reason_for_disabling": null,
                 "disabled": 0,
                 "disabled_at": null,
-                "created_at": "2020-12-07 23:55:05",
-                "updated_at": "2020-12-08 03:20:45",
+                "created_at": "2020-12-16 11:10:05",
+                "updated_at": "2020-12-16 11:10:10",
                 "exports": "{\"2dehands\":{\"activated\":\"1\"},\"facebook\":{\"activated\":\"1\"},\"belgiemobiel\":{\"activated\":\"1\"},\"autovooru\":{\"activated\":\"1\"},\"autolive\":{\"activated\":\"1\"},\"autoccasion\":{\"activated\":\"1\"},\"autokkazie\":{\"activated\":\"1\"},\"vroom\":{\"activated\":\"1\"},\"autoscout24\":{\"activated\":\"1\"},\"oldtimerweb\":{\"activated\":\"1\"},\"mobile_de\":{\"activated\":\"1\"},\"quality_garage\":{\"activated\":\"1\"},\"car_magazine\":{\"activated\":\"1\"}}",
                 "cta_custom": null,
                 "original_price_gross": null,
@@ -177,18 +160,19 @@
                 "block_import": 0,
                 "checked_by": null,
                 "checked_at": null,
-                "l_cle": 7889720470,
-                "l_date_ref": "2020-12-08 00:07:35",
-                "l_cote": 18415,
-                "l_cote_confiance": 3,
+                "l_cle": 7900730466,
+                "l_date_ref": "2020-12-16 12:02:30",
+                "l_cote": 5340,
+                "l_cote_confiance": 2,
                 "l_hash_refus": null,
-                "l_bmarque": "NISSAN",
-                "l_id_marque": 98,
-                "l_bmodele": "X-TRAIL",
-                "l_id_modele": 1526,
+                "l_bmarque": "TOYOTA",
+                "l_id_marque": 131,
+                "l_bmodele": "VERSO-S",
+                "l_id_modele": 2065,
                 "l_bversion": null,
                 "l_id_version": null,
                 "l_api_status": null,
+                "l_api_attempt": null,
                 "l_api_checked": 0,
                 "l_api_checked_at": null,
                 "point_of_sale_logo": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/points-of-sale\/1-25443-1154871\/logo%2520garage%2520vantilt.jpg",
@@ -208,25 +192,231 @@
                 "country": "BE",
                 "latitude": 50.851607,
                 "longitude": 5.341095,
-                "brand_name": "Nissan",
-                "brand_slug": "nissan",
+                "brand_name": "Toyota",
+                "brand_slug": "toyota",
                 "model_name": {
-                    "en": "X-Trail",
-                    "fr": "X-Trail",
-                    "nl": "X-Trail"
+                    "en": "Verso S",
+                    "fr": "Verso S",
+                    "nl": "Verso S"
                 },
                 "model_slug": {
-                    "fr": "x-trail",
-                    "nl": "x-trail",
-                    "en": "x-trail"
+                    "fr": "verso-s",
+                    "nl": "verso-s",
+                    "en": "verso-s"
                 },
                 "pollution_class_name": {
-                    "fr": "Euro 6",
-                    "en": "Euro 6",
-                    "nl": "Euro 6",
-                    "de": "Euro 6"
+                    "fr": "Euro 5",
+                    "en": "Euro 5",
+                    "nl": "Euro 5",
+                    "de": "Euro 5"
                 },
-                "version_slug": "16-dci-2wd-tekna-xtronic",
+                "version_slug": "14-d-4d-luna",
+                "upsells": null
+            },
+            {
+                "id": 852799,
+                "slug": "AU1233-408110069",
+                "point_of_sale_id": 1233,
+                "brand_id": 20,
+                "model_id": 1105,
+                "model_text": null,
+                "version": "1.4i",
+                "description": {
+                    "fr": "Propere Honda Jazz met automatische airco. Wagen heeft gezien de leeftijd betrekkelijk weinig km. Automatische versnellingsbak zorgt voor aangenaam rijden. Ideale auto voor zorgenloze km's.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>",
+                    "nl": "Propere Honda Jazz met automatische airco. Wagen heeft gezien de leeftijd betrekkelijk weinig km. Automatische versnellingsbak zorgt voor aangenaam rijden. Ideale auto voor zorgenloze km's.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>",
+                    "en": "Propere Honda Jazz met automatische airco. Wagen heeft gezien de leeftijd betrekkelijk weinig km. Automatische versnellingsbak zorgt voor aangenaam rijden. Ideale auto voor zorgenloze km's.<br><br>Wagen wordt gekeurd afgeleverd met checklist, \u00e9\u00e9n jaar garantie, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br>"
+                },
+                "internal_description": "408110069",
+                "category": null,
+                "usage_category": null,
+                "vehicle_type": "car",
+                "fuel_type_id": 20,
+                "number_of_doors": 5,
+                "number_of_seats": 5,
+                "body_style_id": 79,
+                "gearbox_id": 34,
+                "number_of_gears": 5,
+                "transmission_id": 61,
+                "smoke_filter": 0,
+                "horse_power": 82,
+                "fiscal_horse_power": null,
+                "engine_power_kw": 61,
+                "cylinder_capacity": 1339,
+                "number_of_cylinders": 4,
+                "battery_capacity": null,
+                "kilometers": "123750.00",
+                "warranty_months": 12,
+                "built_year": "2006-01-01",
+                "first_registration": "2006-01-01",
+                "number_of_previous_owners": 0,
+                "non_smoking_vehicle": 0,
+                "inspection_valid_until": null,
+                "availability": null,
+                "CO2_emissions": "137",
+                "pollution_class_id": 52,
+                "service_check_book": 0,
+                "vin": "LUCGE385053202558",
+                "show_phone": 0,
+                "main_color_id": 6,
+                "secondary_color_id": null,
+                "paint_type_id": null,
+                "color_metallic": 1,
+                "interior_main_color_id": null,
+                "interior_secondary_color_id": null,
+                "interior_material_id": 41,
+                "options": [
+                    20,
+                    33,
+                    18,
+                    1,
+                    6,
+                    7,
+                    91
+                ],
+                "images": [
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_01.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_02.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_03.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_04.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_05.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_06.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_07.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_08.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_09.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_10.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_11.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_12.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_13.jpg"
+                    },
+                    {
+                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/782440d1-c4bf-4caf-9924-a927c910ebdd_14.jpg"
+                    }
+                ],
+                "video": null,
+                "weight": "1102",
+                "trunk_capacity": null,
+                "dimension_width": null,
+                "dimension_length": null,
+                "dimension_height": null,
+                "purchase_price": null,
+                "price_excl_tax": null,
+                "VAT": null,
+                "price": "4750.00",
+                "total_price_of_repairs": null,
+                "professional_price": null,
+                "discount": null,
+                "on_discount": 0,
+                "to_discuss": 0,
+                "to_bid": 0,
+                "VAT_deductible": 0,
+                "marge": 0,
+                "battery_rental": 0,
+                "new": 0,
+                "sold": 0,
+                "carpass_check": "https:\/\/public.car-pass.be\/vhr\/8b11ea1e-715a-4aca-a55f-c95f703916a2",
+                "crashed": 0,
+                "transformed": 0,
+                "ad_quality": 0,
+                "upsell_best_of": 0,
+                "upsell_top_result": 0,
+                "upsell_color": 0,
+                "warranty_type_id": null,
+                "hash": null,
+                "origin": "import",
+                "external_id": "AU1233-408110069",
+                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-16 11:10:09\"}",
+                "published": 1,
+                "published_at": "2020-12-16 11:10:09",
+                "unpublished_at": null,
+                "reason_for_disabling": null,
+                "disabled": 0,
+                "disabled_at": null,
+                "created_at": "2020-12-16 11:10:09",
+                "updated_at": "2020-12-16 11:10:10",
+                "exports": "{\"2dehands\":{\"activated\":\"1\"},\"facebook\":{\"activated\":\"1\"},\"belgiemobiel\":{\"activated\":\"1\"},\"autovooru\":{\"activated\":\"1\"},\"autolive\":{\"activated\":\"1\"},\"autoccasion\":{\"activated\":\"1\"},\"autokkazie\":{\"activated\":\"1\"},\"vroom\":{\"activated\":\"1\"},\"autoscout24\":{\"activated\":\"1\"},\"oldtimerweb\":{\"activated\":\"1\"},\"mobile_de\":{\"activated\":\"1\"},\"quality_garage\":{\"activated\":\"1\"},\"car_magazine\":{\"activated\":\"1\"}}",
+                "cta_custom": null,
+                "original_price_gross": null,
+                "in_stock": 1,
+                "to_check": 0,
+                "block_import": 0,
+                "checked_by": null,
+                "checked_at": null,
+                "l_cle": 7900731435,
+                "l_date_ref": "2020-12-16 12:02:35",
+                "l_cote": 3137,
+                "l_cote_confiance": 2,
+                "l_hash_refus": null,
+                "l_bmarque": "HONDA",
+                "l_id_marque": 60,
+                "l_bmodele": "JAZZ",
+                "l_id_modele": 845,
+                "l_bversion": null,
+                "l_id_version": null,
+                "l_api_status": null,
+                "l_api_attempt": null,
+                "l_api_checked": 0,
+                "l_api_checked_at": null,
+                "point_of_sale_logo": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/points-of-sale\/1-25443-1154871\/logo%2520garage%2520vantilt.jpg",
+                "point_of_sale_slug": "1-25443-1154871",
+                "point_of_sale_name": "Garage Vantilt bvba",
+                "point_of_sale_email": "garagevantilt@gmail.com",
+                "point_of_sale_is_pro": 1,
+                "address_id": 1231,
+                "phone": "+32499149397",
+                "phone_lead": "+3211948167",
+                "show_logo": 0,
+                "warranty_type_id_for_delaer": null,
+                "biller": "RMG",
+                "address": "Plattestraat 46",
+                "city": "Wellen",
+                "zip": "3830",
+                "country": "BE",
+                "latitude": 50.851607,
+                "longitude": 5.341095,
+                "brand_name": "Honda",
+                "brand_slug": "honda",
+                "model_name": {
+                    "en": "Jazz",
+                    "fr": "Jazz",
+                    "nl": "Jazz"
+                },
+                "model_slug": {
+                    "fr": "jazz",
+                    "nl": "jazz",
+                    "en": "jazz"
+                },
+                "pollution_class_name": {
+                    "fr": "Euro 4",
+                    "en": "Euro 4",
+                    "nl": "Euro 4",
+                    "de": "Euro 4"
+                },
+                "version_slug": "14i",
                 "upsells": null
             },
             {
@@ -376,7 +566,7 @@
                 "hash": null,
                 "origin": "import",
                 "external_id": "AU1233-408109066",
-                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-08 03:20:44\"}",
+                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-16 11:10:10\"}",
                 "published": 1,
                 "published_at": "2020-12-07 23:55:06",
                 "unpublished_at": null,
@@ -384,7 +574,7 @@
                 "disabled": 0,
                 "disabled_at": null,
                 "created_at": "2020-12-07 23:55:06",
-                "updated_at": "2020-12-08 03:20:45",
+                "updated_at": "2020-12-16 11:10:10",
                 "exports": "{\"2dehands\":{\"activated\":\"1\"},\"facebook\":{\"activated\":\"1\"},\"belgiemobiel\":{\"activated\":\"1\"},\"autovooru\":{\"activated\":\"1\"},\"autolive\":{\"activated\":\"1\"},\"autoccasion\":{\"activated\":\"1\"},\"autokkazie\":{\"activated\":\"1\"},\"vroom\":{\"activated\":\"1\"},\"autoscout24\":{\"activated\":\"1\"},\"oldtimerweb\":{\"activated\":\"1\"},\"mobile_de\":{\"activated\":\"1\"},\"quality_garage\":{\"activated\":\"1\"},\"car_magazine\":{\"activated\":\"1\"}}",
                 "cta_custom": null,
                 "original_price_gross": null,
@@ -405,6 +595,7 @@
                 "l_bversion": null,
                 "l_id_version": null,
                 "l_api_status": null,
+                "l_api_attempt": null,
                 "l_api_checked": 0,
                 "l_api_checked_at": null,
                 "point_of_sale_logo": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/points-of-sale\/1-25443-1154871\/logo%2520garage%2520vantilt.jpg",
@@ -468,7 +659,7 @@
                 "body_style_id": 81,
                 "gearbox_id": 35,
                 "number_of_gears": 5,
-                "transmission_id": null,
+                "transmission_id": 61,
                 "smoke_filter": 0,
                 "horse_power": 115,
                 "fiscal_horse_power": null,
@@ -548,15 +739,6 @@
                     },
                     {
                         "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/a095bf7e-4e9f-4c56-8b29-758b72d9127a_12.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/a095bf7e-4e9f-4c56-8b29-758b72d9127a_13.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/a095bf7e-4e9f-4c56-8b29-758b72d9127a_14.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/a095bf7e-4e9f-4c56-8b29-758b72d9127a_15.jpg"
                     }
                 ],
                 "video": null,
@@ -591,7 +773,7 @@
                 "hash": null,
                 "origin": "import",
                 "external_id": "AU1233-408109630",
-                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-08 03:20:41\"}",
+                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-16 11:10:07\"}",
                 "published": 1,
                 "published_at": "2020-12-07 23:55:07",
                 "unpublished_at": null,
@@ -599,7 +781,7 @@
                 "disabled": 0,
                 "disabled_at": null,
                 "created_at": "2020-12-07 23:55:07",
-                "updated_at": "2020-12-08 03:20:45",
+                "updated_at": "2020-12-16 11:10:10",
                 "exports": "{\"2dehands\":{\"activated\":\"1\"},\"facebook\":{\"activated\":\"1\"},\"belgiemobiel\":{\"activated\":\"1\"},\"autovooru\":{\"activated\":\"1\"},\"autolive\":{\"activated\":\"1\"},\"autoccasion\":{\"activated\":\"1\"},\"autokkazie\":{\"activated\":\"1\"},\"vroom\":{\"activated\":\"1\"},\"autoscout24\":{\"activated\":\"1\"},\"oldtimerweb\":{\"activated\":\"1\"},\"mobile_de\":{\"activated\":\"1\"},\"quality_garage\":{\"activated\":\"1\"},\"car_magazine\":{\"activated\":\"1\"}}",
                 "cta_custom": null,
                 "original_price_gross": null,
@@ -620,6 +802,7 @@
                 "l_bversion": null,
                 "l_id_version": null,
                 "l_api_status": null,
+                "l_api_attempt": null,
                 "l_api_checked": 0,
                 "l_api_checked_at": null,
                 "point_of_sale_logo": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/points-of-sale\/1-25443-1154871\/logo%2520garage%2520vantilt.jpg",
@@ -659,230 +842,7 @@
                 },
                 "version_slug": "16i",
                 "upsells": null
-            },
-            {
-                "id": 627219,
-                "slug": "AU1233-402897202",
-                "point_of_sale_id": 1233,
-                "brand_id": 53,
-                "model_id": 126,
-                "model_text": null,
-                "version": "1.4 TSI ",
-                "description": {
-                    "fr": "Skoda Octavia in uitstekende staat met diverse opties zoals zetelverwarming, navigatie, cruise control, parkeerhulp...<br><br>Wagen wordt gekeurd afgeleverd met \u00e9\u00e9n jaar garantie, checklist, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br><br><br>",
-                    "nl": "Skoda Octavia in uitstekende staat met diverse opties zoals zetelverwarming, navigatie, cruise control, parkeerhulp...<br><br>Wagen wordt gekeurd afgeleverd met \u00e9\u00e9n jaar garantie, checklist, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br><br><br>",
-                    "en": "Skoda Octavia in uitstekende staat met diverse opties zoals zetelverwarming, navigatie, cruise control, parkeerhulp...<br><br>Wagen wordt gekeurd afgeleverd met \u00e9\u00e9n jaar garantie, checklist, car pass en onderhoudsbeurt.<br><br>Voor vragen of info: 0499\/14.93.97<br><br><br>"
-                },
-                "internal_description": "402897202",
-                "category": null,
-                "usage_category": null,
-                "vehicle_type": "car",
-                "fuel_type_id": 20,
-                "number_of_doors": 5,
-                "number_of_seats": 5,
-                "body_style_id": 75,
-                "gearbox_id": 35,
-                "number_of_gears": 6,
-                "transmission_id": 61,
-                "smoke_filter": 0,
-                "horse_power": 149,
-                "fiscal_horse_power": null,
-                "engine_power_kw": 110,
-                "cylinder_capacity": 1395,
-                "number_of_cylinders": 4,
-                "battery_capacity": null,
-                "kilometers": "80783.00",
-                "warranty_months": 12,
-                "built_year": "2016-10-01",
-                "first_registration": "2016-10-01",
-                "number_of_previous_owners": 0,
-                "non_smoking_vehicle": 0,
-                "inspection_valid_until": null,
-                "availability": null,
-                "CO2_emissions": "119",
-                "pollution_class_id": 54,
-                "service_check_book": 0,
-                "vin": "tmbjc7ne9h0091547",
-                "show_phone": 0,
-                "main_color_id": 10,
-                "secondary_color_id": null,
-                "paint_type_id": null,
-                "color_metallic": 0,
-                "interior_main_color_id": null,
-                "interior_secondary_color_id": null,
-                "interior_material_id": 41,
-                "options": [
-                    44,
-                    20,
-                    55,
-                    90,
-                    33,
-                    16,
-                    18,
-                    1,
-                    58,
-                    47,
-                    6,
-                    61,
-                    83,
-                    7,
-                    26,
-                    60,
-                    91,
-                    73,
-                    40,
-                    39,
-                    38,
-                    17
-                ],
-                "images": [
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_01.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_02.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_03.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_04.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_05.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_06.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_07.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_08.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_09.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_10.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_11.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_12.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_13.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_14.jpg"
-                    },
-                    {
-                        "url": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/autoscout\/var\/ftp\/autoscout\/in-progress\/2142091248\/9c7b6844-e49e-47c2-9c8b-89b6315a5e75_15.jpg"
-                    }
-                ],
-                "video": null,
-                "weight": "1275",
-                "trunk_capacity": null,
-                "dimension_width": null,
-                "dimension_length": null,
-                "dimension_height": null,
-                "purchase_price": null,
-                "price_excl_tax": null,
-                "VAT": null,
-                "price": "13750.00",
-                "total_price_of_repairs": null,
-                "professional_price": null,
-                "discount": null,
-                "on_discount": 0,
-                "to_discuss": 0,
-                "to_bid": 0,
-                "VAT_deductible": 0,
-                "marge": 0,
-                "battery_rental": 0,
-                "new": 0,
-                "sold": 0,
-                "carpass_check": "https:\/\/public.car-pass.be\/vhr\/677cde32-f6c6-4e5b-9fc7-54d3acabb7e7",
-                "crashed": 0,
-                "transformed": 0,
-                "ad_quality": 0,
-                "upsell_best_of": 0,
-                "upsell_top_result": 0,
-                "upsell_color": 0,
-                "warranty_type_id": null,
-                "hash": null,
-                "origin": "import",
-                "external_id": "AU1233-402897202",
-                "providers": "{\"provider_name\":\"autoscout\",\"path\":\"\\\/var\\\/ftp\\\/autoscout\\\/in-progress\\\/2142091248\\\/2142091248.xml\",\"last_date_import\":\"2020-12-08 03:20:43\"}",
-                "published": 1,
-                "published_at": "2020-08-23 14:30:05",
-                "unpublished_at": null,
-                "reason_for_disabling": null,
-                "disabled": 0,
-                "disabled_at": null,
-                "created_at": "2020-08-23 14:30:05",
-                "updated_at": "2020-12-08 03:20:45",
-                "exports": "{\"2dehands\":{\"activated\":\"1\"},\"facebook\":{\"activated\":\"1\"},\"belgiemobiel\":{\"activated\":\"1\"},\"autovooru\":{\"activated\":\"1\"},\"autolive\":{\"activated\":\"1\"},\"autoccasion\":{\"activated\":\"1\"},\"autokkazie\":{\"activated\":\"1\"},\"vroom\":{\"activated\":\"1\"},\"autoscout24\":{\"activated\":\"1\"},\"oldtimerweb\":{\"activated\":\"1\"},\"mobile_de\":{\"activated\":\"1\"},\"quality_garage\":{\"activated\":\"1\"},\"car_magazine\":{\"activated\":\"1\"}}",
-                "cta_custom": null,
-                "original_price_gross": null,
-                "in_stock": 1,
-                "to_check": 0,
-                "block_import": 0,
-                "checked_by": null,
-                "checked_at": null,
-                "l_cle": 7734564014,
-                "l_date_ref": "2020-08-24 00:43:56",
-                "l_cote": 13795,
-                "l_cote_confiance": 3,
-                "l_hash_refus": null,
-                "l_bmarque": "SKODA",
-                "l_id_marque": 122,
-                "l_bmodele": "OCTAVIA COMBI",
-                "l_id_modele": 1063,
-                "l_bversion": null,
-                "l_id_version": null,
-                "l_api_status": null,
-                "l_api_checked": 0,
-                "l_api_checked_at": null,
-                "point_of_sale_logo": "https:\/\/img.gocar.be\/v7\/_cloud_new_gocar_\/points-of-sale\/1-25443-1154871\/logo%2520garage%2520vantilt.jpg",
-                "point_of_sale_slug": "1-25443-1154871",
-                "point_of_sale_name": "Garage Vantilt bvba",
-                "point_of_sale_email": "garagevantilt@gmail.com",
-                "point_of_sale_is_pro": 1,
-                "address_id": 1231,
-                "phone": "+32499149397",
-                "phone_lead": "+3211948167",
-                "show_logo": 0,
-                "warranty_type_id_for_delaer": null,
-                "biller": "RMG",
-                "address": "Plattestraat 46",
-                "city": "Wellen",
-                "zip": "3830",
-                "country": "BE",
-                "latitude": 50.851607,
-                "longitude": 5.341095,
-                "brand_name": "Skoda",
-                "brand_slug": "skoda",
-                "model_name": {
-                    "en": "Octavia",
-                    "fr": "Octavia",
-                    "nl": "Octavia"
-                },
-                "model_slug": {
-                    "fr": "octavia",
-                    "nl": "octavia",
-                    "en": "octavia"
-                },
-                "pollution_class_name": {
-                    "fr": "Euro 6",
-                    "en": "Euro 6",
-                    "nl": "Euro 6",
-                    "de": "Euro 6"
-                },
-                "version_slug": "14-tsi",
-                "upsells": null
-            }
+            }        
         ],
         "first_page_url": "http:\/\/api.gocar.be\/v1\/public\/vehicles?page=1",
         "from": 1,

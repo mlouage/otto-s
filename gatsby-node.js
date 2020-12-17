@@ -284,7 +284,6 @@ exports.createResolvers = ({ createResolvers }) => {
             const data = await response.json();
             const name = data.name.nl;
 
-            console.log(`Translated ID ${option} into ${name}`);
             transformedOptions.push(name);
         }
 
@@ -299,7 +298,6 @@ exports.createResolvers = ({ createResolvers }) => {
         const response = await fetch(`${attributesUrl}/${attributeId}`);
         const data = await response.json();
         const name = data.name.nl;
-        console.log(`Translated ID ${attributeId} into ${name}`);
 
         return name;
     }
