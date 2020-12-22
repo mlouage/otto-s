@@ -44,8 +44,8 @@ const Car = ({ vehicle }) => {
                             <div>{vehicle.horsePower} pk</div>
                         </div>
                         <div className="col-span-1 mt-4">
-                            <div className="text-gray-600 uppercase tracking-widest text-sm">Km-stand</div>
-                            <div>{vehicle.kilometers}</div>
+                            <div className="text-gray-600 uppercase tracking-widest text-sm">Kilometers</div>
+                            <div>{new Intl.NumberFormat('nl-BE').format(vehicle.kilometers)} km</div>
                         </div>
                         <div className="col-span-1 mt-4">
                             <div className="text-gray-600 uppercase tracking-widest text-sm">Inschrijving</div>

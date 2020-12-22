@@ -2,8 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const SocialHeader = () => (
-    <div className="sticky top-0 z-50 pl-8 pr-8 h-16 flex justify-end items-center bg-gray-900 text-white font-bold text-xs tracking-widest">
-
+    <div className="sticky top-0 z-50 pl-8 pr-8 h-16 flex justify-end items-center bg-secondary text-white font-bold text-xs tracking-widest shadow-lg">
         <div>
             <ul className="h-full flex justify-between items-center">
                 <li className="mr-2">
