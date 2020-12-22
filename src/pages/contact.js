@@ -6,7 +6,7 @@ const ContactPage = () => {
     <>
       <div className="text-gray-600 uppercase tracking-wide text-sm">Contacteer ons</div>
       <h1 className="font-bold text-2xl mt-8">Heb je een vraag, aarzel niet om ons te contacteren.</h1>
-      <div className="grid grid-cols-1 mt-8 md:grid-cols-2 md:gap-32">
+      <div className="grid grid-cols-1 mt-8 lg:grid-cols-2 lg:gap-32">
         <a href="https://www.google.com/maps/place/Kolmenstraat+1315,+3570+Alken,+Belgi%C3%AB/@50.8888667,5.2991296,17z/data=!3m1!4b1!4m5!3m4!1s0x47c118a1c5bf1347:0x2eacbe10e87e4a42!8m2!3d50.8888667!4d5.3013183">
           <img className="mb-8 pt-3 hover:shadow-lg" src={map} alt="Contact" />
         </a>
