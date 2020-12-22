@@ -22,9 +22,11 @@ export const query = graphql`
   }
 `
 
-const IndexPage = ({ data: { allVehicle: { nodes: cars }} }) => (
+const IndexPage = ({ data: { allVehicle: { nodes: cars } } }) => (
   <>
-    <Cars data={cars}/>
+    <div className="text-gray-600 uppercase tracking-wide text-sm">Aanbod</div>
+    <h1 className="font-bold text-2xl mt-8 mb-8">Onze selectie otto-s</h1>
+    <Cars data={cars} />
   </>
 )
 

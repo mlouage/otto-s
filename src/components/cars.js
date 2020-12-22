@@ -14,7 +14,7 @@ const Cars = ({data}) => {
                 }
                 ));
                 return (
-                    <div key={car.slug}>
+                    <div key={car.slug} className={car.autoscout24Images == null ? "hide" : ""} className="p-4 hover:shadow-lg">
                         <ImageGallery items={images} {...config} />
                         <div className="text-gray-600 uppercase tracking-widest mt-4">{car.brandName}</div>
 
@@ -24,27 +24,26 @@ const Cars = ({data}) => {
 
                         <div className="grid grid-cols-3 mt-4">
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Inschrijving</div>
-                                <div>{car.firstRegistration}</div>
+                                <div className="text-gray-600 uppercase tracking-tight text-center text-xs sm:text-sm">Inschrijving</div>
+                                <div className="text-center">{car.firstRegistration}</div>
                             </div>
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Km-stand</div>
-                                <div>{ car.kilometers }</div>
+                                <div className="text-gray-600 uppercase tracking-tight text-center text-xs sm:text-sm">Km</div>
+                                <div className="text-center">{ new Intl.NumberFormat('nl-BE').format(car.kilometers) }</div>
                             </div>
                             <div>
-                                <div className="text-gray-600 uppercase tracking-widest text-xs sm:text-sm">Vermogen</div>
-                                <div>{car.horsePower} pk</div>
+                                <div className="text-gray-600 uppercase tracking-tight text-center text-xs sm:text-sm">Vermogen</div>
+                                <div className="text-center">{car.horsePower} pk</div>
                             </div>
                         </div>
 
-                        <div className="font-bold text-2xl mt-4">
+                        <div className="font-bold text-2xl mt-4 text-center">
                             <div>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(car.price)}</div>
                         </div>
 
                         <div className="mt-4 w-auto inline-block">
-                            <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to={car.slug}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
-
+                            <Link className="flex items-center pl-4 pr-4" to={car.slug}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                                 <div className="relative">
                                     <span className="font-bold uppercase ">meer informatie</span>
                                 </div>

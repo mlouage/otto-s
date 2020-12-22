@@ -8,7 +8,7 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
-    <div className="box-border">
+    <div className="box-border font-body">
       <SEO lang="nl" />     
       <SocialHeader />
       <Navigation />

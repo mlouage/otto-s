@@ -7,7 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0068A8'
+        primary: '#0068A8',
+        secondary: '#2FB1CB',
+        tertiary: '#195A6C'
+      },
+      fontFamily: {
+        body: ['Rokkitt']
       }
     },
   },
