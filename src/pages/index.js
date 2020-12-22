@@ -25,7 +25,7 @@ export const query = graphql`
 const IndexPage = ({ data: { allVehicle: { nodes: cars } } }) => (
   <>
     <div className="text-gray-600 uppercase tracking-wide text-sm">Aanbod</div>
-    <h1 className="font-bold text-2xl mt-8 mb-8">Onze selectie otto-s</h1>
+    <h1 className="font-bold text-2xl mt-8 mb-8">Onze selectie otto-s met dat beetje meer</h1>
     <Cars data={cars} />
   </>
 )

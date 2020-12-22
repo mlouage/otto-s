@@ -41,12 +41,12 @@ const Cars = ({data}) => {
                             <div>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(car.price)}</div>
                         </div>
 
-                        <div className="mt-4 w-auto inline-block">
-                            <Link className="flex items-center pl-4 pr-4" to={car.slug}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                <div className="relative">
-                                    <span className="font-bold uppercase ">meer informatie</span>
+                        <div className="mt-4 w-auto inline-block float-right">
+                            <Link className="flex items-center pr-4 hover:underline" to={car.slug}>
+                            <div className="relative">
+                                    <span className="font-bold uppercase pt-2 pr-3">meer informatie</span>
                                 </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                             </Link>
                         </div>
                     </div>
