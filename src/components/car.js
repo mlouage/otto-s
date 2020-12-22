@@ -68,7 +68,7 @@ const Car = ({ vehicle }) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-1 mt-4">
+                <div className="col-span-1 mt-4 text-center">
                     <div className="grid grid-cols-1">
                         <div className="bg-black p-8 text-white font-bold text-xl">
                             <span>{new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(vehicle.price)}</span>
@@ -77,7 +77,7 @@ const Car = ({ vehicle }) => {
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
                             <div className="font-bold text-xl pb-4">Een vraag over deze wagen?</div>
                             <div className="mt-4 w-auto inline-block">
-                                <Link className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4" to="#">
+                                <div className="flex items-center bg-black p-2 border border-primary text-white pl-4 pr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
 
                                     <div className="relative">
@@ -85,7 +85,7 @@ const Car = ({ vehicle }) => {
                                             <span className="font-bold uppercase ">Contacteer ons</span>
                                         </Link>
                                     </div>
-                                </Link>
+                                </div>
                             </div>
                         </div>
                         <div className="bg-gray-300 p-8 border-t border-gray-400">
@@ -145,7 +145,7 @@ const Car = ({ vehicle }) => {
                         <Specification label="Cylinder-inhoud" specification={vehicle.cylinderCapacity} unit="cc" />
                         <Specification label="Gewicht" specification={vehicle.weight} unit="kg" />
                         <Specification label="CO2 uitstoot" specification={vehicle.CO2Emissions} unit="g/km" />
-                        <Specification label="Emissieklasse" specification={vehicle.pollutionClassName} />
+                        <Specification label="Emissie klasse" specification={vehicle.pollutionClassName} />
                         <Specification label="Metallic lak" specification={vehicle.colorMetallic === 1 ? "Ja" : "Nee"} />
                         <Specification label="Kleur" specification={vehicle.mainColor} />
                         <Specification label="Interieur" specification={vehicle.interiorMaterial} />

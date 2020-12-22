@@ -9,11 +9,11 @@ const Navigation = () => (
                 <img src={Logo} alt="Otto-s" />
             </Link>
         </div>
-        <div className="uppercase font-bold tracking-widest p-4 md:p-0">
+        <div className="uppercase font-bold tracking-widest">
             <ul className="h-full flex justify-between items-center">
-                <li className="mr-16"><Link className="hover:underline" to="/">Aanbod</Link></li>
-                <li className="mr-16"><Link className="hover:underline" to="/about">Over</Link></li>
-                <li className="pr-0"><Link className="hover:underline" to="/contact">Contact</Link></li>
+                <li className="mr-4 md:mr-16"><Link className="hover:underline" to="/">Aanbod</Link></li>
+                <li className="mr-4 md:mr-16"><Link className="hover:underline" to="/about">Over</Link></li>
+                <li className="mr-2"><Link className="hover:underline" to="/contact">Contact</Link></li>
             </ul>
         </div>
     </div>

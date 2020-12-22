@@ -6,7 +6,7 @@ const Specification = ({label, specification, unit}) => {
             {specification && 
                 <>
                     <div className="text-gray-600 uppercase tracking-widest text-sm">{label}</div>
-                    <div>{specification} {unit}</div>
+                    <div>{specification.toString().replace('/', ' / ')} {unit}</div>
                 </>
             }
         </>
