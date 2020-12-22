@@ -81,7 +81,9 @@ const Car = ({ vehicle }) => {
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
 
                                     <div className="relative">
-                                        <span className="font-bold uppercase ">Contacteer ons</span>
+                                        <Link to="/contact">
+                                            <span className="font-bold uppercase ">Contacteer ons</span>
+                                        </Link>
                                     </div>
                                 </Link>
                             </div>
@@ -140,7 +142,7 @@ const Car = ({ vehicle }) => {
                         <Specification label="Transmissie" specification={vehicle.gearBox} />
                         <Specification label="Vermogen" specification={vehicle.horsePower} unit="pk"/>
                         <Specification label="Cylinders" specification={vehicle.numberOfCylinders} unit="cylinders" />
-                        <Specification label="Cylinderinhoud" specification={vehicle.cylinderCapacity} unit="cc" />
+                        <Specification label="Cylinder-inhoud" specification={vehicle.cylinderCapacity} unit="cc" />
                         <Specification label="Gewicht" specification={vehicle.weight} unit="kg" />
                         <Specification label="CO2 uitstoot" specification={vehicle.CO2Emissions} unit="g/km" />
                         <Specification label="Emissieklasse" specification={vehicle.pollutionClassName} />

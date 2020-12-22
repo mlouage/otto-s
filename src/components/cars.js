@@ -19,7 +19,7 @@ const Cars = ({data}) => {
                         <div className="text-gray-600 uppercase tracking-widest mt-4">{car.brandName}</div>
 
                         <div className="font-bold text-xl mt-4">
-                            <Link to="details?car=1234">{car.modelName} {car.version}</Link>
+                            {car.modelName} {car.version}
                         </div>
 
                         <div className="grid grid-cols-3 mt-4">
