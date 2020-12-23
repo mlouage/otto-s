@@ -18,7 +18,6 @@ const ContactPage = () => {
           <div>BTW: BE 0000 000 000</div>
           <div className="font-bold text-xl mt-4">Openingsuren</div>
           <div>Ma-Vr: 8:00- 12:00 / 13:00 - 18:00</div>
-          <div>Za: 10:00 - 13:00, namiddag op afspraak</div>
           <div className="mt-8"><span className="font-bold">E:</span> <a href="mailto:info@otto-s.be" className="hover:text-primary hover:underline">info@otto-s.be</a></div>
         </div>
       </div>
