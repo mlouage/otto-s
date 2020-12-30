@@ -1,21 +1,20 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+  purge: {
+    mode: "layers",
+    content: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"]
   },
-  purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
     extend: {
       colors: {
-        primary: '#0068A8',
-        secondary: '#2FB1CB',
-        tertiary: '#195A6C'
+        primary: "#0068A8",
+        secondary: "#2FB1CB",
+        tertiary: "#195A6C",
       },
       fontFamily: {
-        body: ['Rokkitt']
-      }
+        body: ["Rokkitt"],
+      },
     },
   },
   variants: {},
   plugins: [],
-}
+};
