@@ -39,7 +39,7 @@ exports.sourceNodes = async ({
     reporter.info(`GoCAR API URL: ${url}`);
 
     const typeDefs = `
-        type ${VEHICLE_NODE_TYPE} implements Node {            
+        type ${VEHICLE_NODE_TYPE} implements Node {
             brandId: Int
             brandName: String
             modelId: Int
@@ -85,7 +85,7 @@ exports.sourceNodes = async ({
             purchasePrice: Float
             priceExclTax: Float
             VAT: Float
-            price: Float
+            price: Int
             totalPriceOfRepairs: Float
             professionalPrice: Float
             discount: Float
@@ -294,7 +294,7 @@ exports.createResolvers = ({ createResolvers }) => {
         if (!attributeId) {
             return
         }
-        
+
         const response = await fetch(`${attributesUrl}/${attributeId}`);
         const data = await response.json();
         const name = data.name.nl;
@@ -307,7 +307,7 @@ exports.createResolvers = ({ createResolvers }) => {
         const splittedImageUrl = imageUrl.split('/');
         const hash = splittedImageUrl[splittedImageUrl.length - 1].split('_')[0];
         const images = [];
-        
+
         const autoscout24BaseImagesUrl = "https://prod.pictures.autoscout24.net/listing-images";
         const url = `https://www.autoscout24.be/nl/${slug}-${hash}`;
 
