@@ -1,14 +1,14 @@
 import React from "react"
-import Logo from "../images/Logo_3_small.png"
+import Logo from "../images/Otto-s_FINAL_LOGO-03_small.jpg"
 
 const Footer = () => (
-    <div className="bg-black p-8 text-white">
+    <div className="bg-white p-8 text-black hover:shadow-xl">
         <img src={Logo} alt="Otto-s" />
         <div className="leading-loose">
             <div className="grid grid-cols-1 mt-8 md:grid-cols-2 md:gap-32">
                 <div>
                     <div className="font-bold text-xl leading-none">Otto-s</div>
-                    <div className="font-bold text-xl">met dat beetje meer</div>
+                    <div className="font-bold text-xl">met een beetje meer</div>
                     <div>Kolmenstraat 1318</div>
                     <div>3570 Alken</div>
                     <div>Belgie</div>
