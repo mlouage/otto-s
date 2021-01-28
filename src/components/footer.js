@@ -12,7 +12,7 @@ const Footer = () => (
                     <div>Kolmenstraat 1318</div>
                     <div>3570 Alken</div>
                     <div>Belgie</div>
-                    <div>BTW: BE 076.051.1177</div>
+                    <div>BTW BE 076.051.1177</div>
                 </div>
                 <div>
                     <div className="font-bold text-xl">Openingsuren</div>
