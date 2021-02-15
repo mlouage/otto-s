@@ -11,7 +11,7 @@ const Footer = () => (
                     <div className="font-bold text-xl">met een beetje meer</div>
                     <div>Kolmenstraat 1318</div>
                     <div>3570 Alken</div>
-                    <div>Belgie</div>
+                    <div>België</div>
                     <div>BTW BE 076.051.1177</div>
                 </div>
                 <div>
