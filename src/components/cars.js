@@ -27,8 +27,7 @@ const Cars = ({ data }) => {
         return (
           <div
             key={car.slug}
-            className={car.autoscout24Images == [] ? "hide" : ""}
-            className="p-4 hover:shadow-lg hover:bg-white"
+            className={car.autoscout24Images === [] ? "hide" : "p-4 hover:shadow-lg hover:bg-white"}
           >
             <ImageGallery items={images} {...config} />
             <div className="text-gray-600 uppercase tracking-widest mt-4">
