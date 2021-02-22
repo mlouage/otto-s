@@ -19,8 +19,8 @@ const ContactPage = () => {
           <div>België</div>
           <div>BTW BE 076.051.1177</div>
           <div className="font-bold text-xl mt-4">Openingsuren</div>
-          <div>Ma-Vr: 8:00- 12:00 / 13:00 - 18:00</div>
-          <div className="mt-8"><span className="font-bold">T:</span> <a href="tel:0499149397" className="hover:text-primary hover:underline">0499 14 93 97</a></div>
+          <div>Op afspraak</div>
+          <div><span className="font-bold">T:</span> <a href="tel:0499149397" className="hover:text-primary hover:underline">0499 14 93 97</a></div>
           <div><span className="font-bold">E:</span> <a href="mailto:info@otto-s.be" className="hover:text-primary hover:underline">info@otto-s.be</a></div>
         </div>
       </div>
