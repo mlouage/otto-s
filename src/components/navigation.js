@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../images/Otto-s_FINAL_LOGO-03.jpg"
+import Logo from "../images/OTTOSLogo_Web.png"
 
 const Navigation = () => (
     <div className="pl-8 pr-8 h-64 md:h-48 flex flex-col md:flex-row justify-center md:justify-between items-center bg-white text-black">
