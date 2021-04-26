@@ -8,7 +8,7 @@ const Footer = () => (
             <div className="grid grid-cols-1 mt-8 md:grid-cols-2 md:gap-32">
                 <div>
                     <div className="font-bold text-xl leading-none">Otto-s</div>
-                    <div className="font-bold text-xl">met een beetje meer</div>
+                    <div className="font-bold text-xl">met meer</div>
                     <div>Kolmenstraat 1318</div>
                     <div>3570 Alken</div>
                     <div>België</div>
