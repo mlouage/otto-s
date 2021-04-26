@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../images/Otto-s_FINAL_LOGO-03_small.jpg"
+import Logo from "../images/OTTOSLogo_Web_small.png"
 
 const Footer = () => (
     <div className="bg-white p-8 text-black hover:shadow-xl">
