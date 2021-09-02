@@ -123,7 +123,7 @@ exports.sourceNodes = async ({
             brand_id: brandId,
             brand_name: brandName,
             model_id: modelId,
-            model_name: { nl: modelName } = {},
+            model_text: modelName,
             version,
             description: { nl: description } = {},
             vehicle_type: vehicleType,
