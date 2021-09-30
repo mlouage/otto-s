@@ -16,17 +16,17 @@ const Footer = () => (
                 </div>
                 <div>
                     <div className="font-bold text-xl">Openingsuren</div>
-                    <div className="flex flex-row">
-                        <div className="pr-10">
-                            <div>Maandag-vrijdag</div>
-                            <div>08u00-12u00</div>
-                            <div>13u00-18u00</div>
+                    <div className="md:flex md:flex-row">
+                        <div className="md:pr-10">
+                            <div>Maandag - vrijdag</div>
+                            <div>08u00 - 12u00</div>
+                            <div>13u00 - 18u00</div>
                         </div>
-                        <div className="pr-10">
+                        <div className="md:pr-10">
                             <div>Zaterdag</div>
                             <div>Op afspraak</div>
                         </div>
-                        <div className="pr-10">
+                        <div className="md:pr-10">
                             <div>Zondag</div>
                             <div>Gesloten</div>
                         </div>
