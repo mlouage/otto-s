@@ -16,7 +16,7 @@ const Cars = ({ data }) => {
     return 0;
   }
 
-  data = data.sort(compare);
+  data = data.sort(compare).filter(c => c.autoscout24Images.length !== 0);
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
@@ -27,7 +27,7 @@ const Cars = ({ data }) => {
         return (
           <div
             key={car.slug}
-            className={car.autoscout24Images === [] ? "hide" : "p-4 hover:shadow-lg hover:bg-white"}
+            className="p-4 hover:shadow-lg hover:bg-white"
           >
             <ImageGallery items={images} {...config} />
             <div className="text-gray-600 uppercase tracking-widest mt-4">
