@@ -16,7 +16,21 @@ const Footer = () => (
                 </div>
                 <div>
                     <div className="font-bold text-xl">Openingsuren</div>
-                    <div>Op afspraak</div>
+                    <div className="md:flex md:flex-row">
+                        <div className="md:pr-10">
+                            <div>Maandag - vrijdag</div>
+                            <div>08u00 - 12u00</div>
+                            <div>13u00 - 18u00</div>
+                        </div>
+                        <div className="md:pr-10">
+                            <div>Zaterdag</div>
+                            <div>Op afspraak</div>
+                        </div>
+                        <div className="md:pr-10">
+                            <div>Zondag</div>
+                            <div>Gesloten</div>
+                        </div>
+                    </div>
                     <div><span className="font-bold">T:</span> <a href="tel:0499149397" className="hover:text-primary hover:underline">0499 14 93 97</a></div>
                     <div><span className="font-bold">E:</span> <a href="mailto:info@otto-s.be" className="hover:text-primary hover:underline">info@otto-s.be</a></div>
                 </div>
