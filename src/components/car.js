@@ -7,7 +7,7 @@ import Specification from "./specification"
 
 const Car = ({ vehicle }) => {
 
-    const photos = vehicle.autoscout24Images.map(c => ({
+    const photos = vehicle.images.map(c => ({
         src: c,
         width: 4,
         height: 3
@@ -64,7 +64,7 @@ const Car = ({ vehicle }) => {
                             <div>{vehicle.gearBox}</div>
                         </div>
                         <div className="col-span-1 md:col-span-3 lg:col-span-6 xl:col-span-6 mt-4">
-                            <img src={vehicle.autoscout24Images[0]} alt={vehicle.slug} />
+                            <img src={vehicle.images[0]} alt={vehicle.slug} />
                         </div>
                     </div>
                 </div>
