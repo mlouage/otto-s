@@ -302,36 +302,15 @@ exports.createResolvers = ({ createResolvers }) => {
         return name;
     }
 
-    const buildAutoScout24Images = async (slug, imageUrl) => {
+    const stripGoCarUrl = (goCarImages) => {
+        const autoscout24Images = [];
 
-        const splittedImageUrl = imageUrl.split('/');
-        const hash = splittedImageUrl[splittedImageUrl.length - 1].split('_')[0];
-        const images = [];
+        goCarImages.map(image => {
+            var autoScout24Image = image.replace('https://img.gocar.be/v7/', '');
+            autoscout24Images.push(autoScout24Image);
+        });
 
-        const autoscout24BaseImagesUrl = "https://prod.pictures.autoscout24.net/listing-images";
-        const url = `https://www.autoscout24.be/nl/${slug}-${hash}`;
-
-        console.log(`Getting Autoscout24 image urls for ${url}`);
-
-        const response = await fetch(url);
-        const body = await response.text();
-        const root = parser.parse(body);
-        const imgs = root.querySelectorAll("img[src]");
-        if (imgs) {
-            imgs.map((item) => {
-                const url = item._rawAttrs['data-src'];
-
-                if (url) {
-                    const parts = url.split("/");
-                    if (parts.length >= 5) {
-                        const imageUrl = `${autoscout24BaseImagesUrl}/${parts[4]}`;
-                        images.push(`${imageUrl}`);
-                    }
-                }
-            });
-        }
-
-        return images;
+        return autoscout24Images;
     }
 
     createResolvers({
@@ -371,12 +350,7 @@ exports.createResolvers = ({ createResolvers }) => {
                 resolve: source => transformAttributeFromId(source.interiorSecondaryColorId)
             },
             autoscout24Images: {
-                resolve: async source => {
-                    const fuelType = await transformAttributeFromId(source.fuelTypeId);
-                    const mainColor = await transformAttributeFromId(source.mainColorId);
-                    const slug = slugify(`${source.brandName}-${source.modelName}-${source.version}-${fuelType}-${mainColor}`);
-                    return await buildAutoScout24Images(slug, source.images[0]);
-                }
+                resolve: source => stripGoCarUrl(source.images)
             }
         }
     });
