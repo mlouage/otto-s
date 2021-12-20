@@ -16,12 +16,12 @@ const Cars = ({ data }) => {
     return 0;
   }
 
-  data = data.sort(compare).filter(c => c.images.length !== 0);
+  data = data.sort(compare).filter(c => c.autoscout24Images.length !== 0);
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
       {data.map((car) => {
-        var images = car.images.map((c) => ({
+        var images = car.autoscout24Images.map((c) => ({
           original: c,
         }));
         return (
